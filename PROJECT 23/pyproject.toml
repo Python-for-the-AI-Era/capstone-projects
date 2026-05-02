@@ -1,0 +1,10 @@
+[project]
+name = "datadump"
+version = "1.0.0"
+dependencies = [
+    "typer[all]",
+    "rich",
+]
+
+[project.scripts]
+datadump = "datadump.main:app"

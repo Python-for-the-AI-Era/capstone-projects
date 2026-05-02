@@ -1,0 +1,11 @@
+features:
+  - name: income
+    source: application_form
+    safe_at_prediction: true
+  - name: late_payment_count
+    source: credit_bureau_live
+    safe_at_prediction: false
+    reason: "Contains data points generated after the loan issuance."
+  - name: debt_to_income_ratio
+    source: derived_calculation
+    safe_at_prediction: true

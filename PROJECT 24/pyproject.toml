@@ -1,0 +1,17 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# E (Error), F (Pyflakes), I (isort), N (Naming), 
+# UP (Upgrade), B (Bugbear), SIM (Simplify)
+select = ["E", "F", "I", "N", "UP", "B", "SIM"]
+ignore = ["E501"] # Ignore long lines (Ruff format handles this)
+
+[tool.mypy]
+strict = true
+disallow_untyped_defs = true
+warn_return_any = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=src --cov-report=term-missing --cov-fail-under=70"

@@ -1,0 +1,12 @@
+[project]
+name = "stanbic-scraper"
+version = "0.1.0"
+dependencies = [
+    "Scrapy>=2.11.0",
+    "lxml==4.9.4",        # Explicitly pinning to a stable version
+    "lxml-html-clean==0.1.1", # Resolving the missing module error
+    "beautifulsoup4>=4.12.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

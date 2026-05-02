@@ -1,0 +1,5 @@
+-- The "Staff" Sanity Check
+SELECT COUNT(*) 
+FROM sensor_readings 
+WHERE energy_source_id IS NULL;
+-- Expected Result: 0

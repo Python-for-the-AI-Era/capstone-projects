@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+  redis:
+    image: redis:alpine
+  api:
+    build: .
+    command: uvicorn main:app --host 0.0.0.0
+    ports: ["8000:8000"]
+  worker:
+    build: .
+    command: celery -A tasks worker --loglevel=info
+  beat:
+    build: .
+    command: celery -A tasks beat --loglevel=info

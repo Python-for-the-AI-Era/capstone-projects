@@ -1,0 +1,405 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipeline-pkg"
+version = "1.0.0"
+description = "A modular data processing pipeline with proper separation of concerns"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Pipeline Team", email = "team@example.com"}
+]
+maintainers = [
+    {name = "Pipeline Team", email = "team@example.com"}
+]
+keywords = ["data", "pipeline", "processing", "etl", "automation"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Database",
+    "Topic :: Office/Business",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "typer>=0.7.0",
+    "reportlab>=4.0.0",
+    "structlog>=23.0.0",
+    "psycopg2-binary>=2.9.0",
+    "pymongo>=4.0.0",
+    "redis>=4.0.0",
+    "boto3>=1.26.0",
+    "pytz>=2023.0",
+    "jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-mock>=3.10.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "pre-commit>=3.0.0",
+    "tox>=4.0.0",
+]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-mock>=3.10.0",
+    "coverage>=7.0.0",
+]
+lint = [
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "types-requests>=2.28.0",
+    "types-redis>=4.0.0",
+]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.0.0",
+    "mkdocstrings[python]>=0.22.0",
+]
+
+[project.scripts]
+pipeline-run = "pipeline_pkg.cli:app"
+pipeline-test = "pipeline_pkg.cli:test"
+pipeline-stats = "pipeline_pkg.cli:stats"
+pipeline-version = "pipeline_pkg.cli:version"
+
+[project.urls]
+Homepage = "https://github.com/example/pipeline-pkg"
+Documentation = "https://pipeline-pkg.readthedocs.io"
+Repository = "https://github.com/example/pipeline-pkg.git"
+"Bug Tracker" = "https://github.com/example/pipeline-pkg/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pipeline_pkg = ["py.typed"]
+
+# Black configuration
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+# isort configuration
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["pipeline_pkg"]
+known_third_party = ["pytest", "requests", "sqlalchemy", "pydantic", "typer"]
+
+# Ruff configuration
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # flake8-quotes
+    "Q",
+    # flake8-comprehensions
+    "C4",
+    # flake8-datetimez
+    "DTZ",
+    # flake8-tidy-imports
+    "TID",
+    # flake8-implicit-str-concat
+    "ISC",
+    # flake8-logging-format
+    "G",
+    # flake8-no-pep420
+    "INP",
+    # flake8-pie
+    "PIE",
+    # flake8-return
+    "RET",
+    # flake8-unused-arguments
+    "ARG",
+    # flake8-use-pathlib
+    "PTH",
+    # flake8-raise
+    "RSE",
+    # flake8-bandit (security)
+    "S",
+    # flake8-boolean-trap
+    "FBT",
+    # flake8-printf
+    "A",
+    # flake8-self
+    "SLF",
+    # flake8-errmsg
+    "EM",
+    # flake8-comprehensions
+    "C4",
+    # flake8-django
+    "DJ",
+    # flake8-async
+    "ASYNC",
+]
+ignore = [
+    "E501",  # line too long, handled by black
+    "B008",  # do not perform function calls in argument defaults
+    "S101",  # assert
+    "S311",  # random
+    "S603",  # subprocess without shell
+    "S607",  # subprocess path
+    "RET504",  # unnecessary assignment
+    "RET505",  # unnecessary else
+    "RET506",  # unnecessary else
+    "RET507",  # unnecessary else
+    "RET508",  # unnecessary else
+    "EM101",  # raw string in exception
+    "EM102",  # f-string in exception
+]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+[tool.ruff.per-file-ignores]
+"tests/*" = [
+    "S101",  # assert
+    "S106",  # hardcoded password
+    "S311",  # random
+    "ARG001",  # unused function argument
+    "ARG002",  # unused method argument
+    "FBT001",  # boolean positional arg
+    "FBT002",  # boolean default value
+    "SLF001",  # private member access
+]
+"__init__.py" = [
+    "F401",  # unused import
+]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+inline-quotes = "double"
+multiline-quotes = "double"
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.flake8-type-checking]
+strict = true
+
+# MyPy configuration
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+strict_concatenate = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_any_unimported = true
+disallow_any_expr = true
+disallow_any_decorated = true
+extra_checks = true
+enable_error_code = [
+    "redundant-expr",
+    "truthy-bool",
+    "ignore-without-code",
+    "unused-awaitable",
+]
+
+[[tool.mypy.overrides]]
+module = [
+    "reportlab.*",
+    "structlog.*",
+    "typer.*",
+    "psycopg2.*",
+    "pymongo.*",
+    "redis.*",
+    "boto3.*",
+    "pytz.*",
+    "jinja2.*",
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+
+# Pytest configuration
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "--cov=pipeline_pkg",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--cov-fail-under=85",
+]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "smoke: marks tests as smoke tests",
+]
+filterwarnings = [
+    "error",
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+# Coverage configuration
+[tool.coverage.run]
+source = ["src/pipeline_pkg"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/site-packages/*",
+    "*/dist-packages/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+    "if TYPE_CHECKING:",
+]
+show_missing = true
+precision = 2
+fail_under = 85
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+# Bandit configuration (security)
+[tool.bandit]
+exclude_dirs = ["tests", "test_*"]
+skips = ["B101", "B601"]
+
+# Pre-commit configuration
+[tool.pre-commit]
+repos = [
+    {
+        repo = "https://github.com/pre-commit/pre-commit-hooks",
+        rev = "v4.4.0",
+        hooks = [
+            {id = "trailing-whitespace"},
+            {id = "end-of-file-fixer"},
+            {id = "check-yaml"},
+            {id = "check-added-large-files"},
+            {id = "check-merge-conflict"},
+            {id = "debug-statements"},
+        ],
+    },
+    {
+        repo = "https://github.com/psf/black",
+        rev = "23.7.0",
+        hooks = [{id = "black"}],
+    },
+    {
+        repo = "https://github.com/pycqa/isort",
+        rev = "5.12.0",
+        hooks = [{id = "isort"}],
+    },
+    {
+        repo = "https://github.com/astral-sh/ruff-pre-commit",
+        rev = "v0.1.0",
+        hooks = [{id = "ruff"}, {id = "ruff-format"}],
+    },
+    {
+        repo = "https://github.com/pre-commit/mirrors-mypy",
+        rev = "v1.5.1",
+        hooks = [{id = "mypy"}],
+    },
+]

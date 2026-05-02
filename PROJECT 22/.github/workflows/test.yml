@@ -1,0 +1,14 @@
+name: PixelCart CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres: # Setup a real DB for tests
+        image: postgres:15
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Tests with Coverage
+        run: |
+          pytest --cov=. --cov-fail-under=80 --cov-report=term-missing

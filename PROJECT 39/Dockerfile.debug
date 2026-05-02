@@ -1,0 +1,17 @@
+# Use a slim image to reveal missing system dependencies
+FROM python:3.11-slim
+
+WORKDIR /app
+COPY pyproject.toml .
+# Install system-level build tools required for C extensions like lxml
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libxml2-dev \
+    libxslt-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install .
+COPY . .
+
+# Reproduction Command
+CMD ["scrapy", "crawl", "stanbic_spider"]
