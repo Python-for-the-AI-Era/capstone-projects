@@ -1,0 +1,41 @@
+# Airflow and dependencies
+apache-airflow==2.7.3
+apache-airflow-providers-postgres==5.7.1
+apache-airflow-providers-http==4.3.1
+apache-airflow-providers-slack==8.4.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+
+# HTTP and requests
+requests==2.31.0
+urllib3==2.1.0
+aiohttp==3.9.1
+
+# Monitoring and logging
+structlog==23.2.0
+prometheus-client==0.19.0
+psutil==5.9.6
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.4
+
+# Utilities
+python-dotenv==1.0.0
+jinja2==3.1.2
+pydantic==2.5.0
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Debugging tools
+memory-profiler==0.61.0
+line-profiler==4.1.1
+py-spy==0.3.14

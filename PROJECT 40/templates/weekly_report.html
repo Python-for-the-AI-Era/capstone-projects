@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ report_title }}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        
+        .header .subtitle {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .summary-section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .competitor-section {
+            background: white;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .competitor-header {
+            background: #4a5568;
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+        
+        .competitor-content {
+            padding: 30px;
+        }
+        
+        .page-section {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .page-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .page-type {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        
+        .page-url {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            word-break: break-all;
+        }
+        
+        .page-url a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .page-url a:hover {
+            text-decoration: underline;
+        }
+        
+        .insights-container {
+            margin-top: 15px;
+        }
+        
+        .insight-category {
+            margin-bottom: 20px;
+        }
+        
+        .insight-category h4 {
+            margin: 0 0 10px 0;
+            color: #2d3748;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .insight-category .icon {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        
+        .insight-list {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .insight-list li {
+            margin-bottom: 8px;
+            color: #4a5568;
+        }
+        
+        .insight-list li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .no-insights {
+            color: #718096;
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+        
+        .confidence-score {
+            background: #48bb78;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .confidence-score.low {
+            background: #f56565;
+        }
+        
+        .confidence-score.medium {
+            background: #ed8936;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #718096;
+            font-size: 0.9em;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #718096;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+            }
+            
+            .header {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .competitor-header {
+                background: #4a5568 !important;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{{ report_title }}</h1>
+        <div class="subtitle">
+            {{ company_name }} - Competitive Intelligence Report<br>
+            Generated on {{ report_date }}
+        </div>
+    </div>
+
+    {% if summary_stats %}
+    <div class="summary-section">
+        <h2>Executive Summary</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">{{ summary_stats.total_competitors }}</div>
+                <div class="stat-label">Competitors Tracked</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ summary_stats.total_pages }}</div>
+                <div class="stat-label">Pages Analyzed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ summary_stats.total_insights }}</div>
+                <div class="stat-label">Key Insights Found</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ summary_stats.new_content_pages }}</div>
+                <div class="stat-label">New Content Pages</div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {% for competitor in competitors %}
+    <div class="competitor-section">
+        <div class="competitor-header">
+            {{ competitor.name }}
+        </div>
+        <div class="competitor-content">
+            {% if competitor.pages %}
+                {% for page in competitor.pages %}
+                <div class="page-section">
+                    <div class="page-type">{{ page.type|title }}</div>
+                    <div class="page-url">
+                        <a href="{{ page.url }}" target="_blank">{{ page.url }}</a>
+                    </div>
+                    
+                    {% if page.insights %}
+                        <div class="insights-container">
+                            {% if page.insights.product_updates %}
+                            <div class="insight-category">
+                                <h4><span class="icon">🚀</span>Product Updates</h4>
+                                <ul class="insight-list">
+                                    {% for update in page.insights.product_updates %}
+                                    <li>{{ update }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.insights.pricing_changes %}
+                            <div class="insight-category">
+                                <h4><span class="icon">💰</span>Pricing Changes</h4>
+                                <ul class="insight-list">
+                                    {% for change in page.insights.pricing_changes %}
+                                    <li>{{ change }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.insights.strategic_shifts %}
+                            <div class="insight-category">
+                                <h4><span class="icon">🎯</span>Strategic Shifts</h4>
+                                <ul class="insight-list">
+                                    {% for shift in page.insights.strategic_shifts %}
+                                    <li>{{ shift }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.insights.summary %}
+                            <div class="insight-category">
+                                <h4><span class="icon">📋</span>Summary
+                                    {% if page.insights.confidence_score %}
+                                        <span class="confidence-score {% if page.insights.confidence_score < 0.5 %}low{% elif page.insights.confidence_score < 0.8 %}medium{% endif %}">
+                                            {{ (page.insights.confidence_score * 100)|round(0) }}% confidence
+                                        </span>
+                                    {% endif %}
+                                </h4>
+                                <p>{{ page.insights.summary }}</p>
+                            </div>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="no-insights">
+                            No significant insights detected on this page.
+                        </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="no-insights">
+                    No new content found for {{ competitor.name }} this week.
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+    {% if not competitors or competitors|length == 0 %}
+    <div class="summary-section">
+        <h2>No New Content This Week</h2>
+        <p>No new content was found across all tracked competitors this week. This could mean:</p>
+        <ul>
+            <li>Competitors haven't updated their websites</li>
+            <li>Content updates were minor</li>
+            <li>There may have been scraping issues</li>
+        </ul>
+    </div>
+    {% endif %}
+
+    <div class="footer">
+        <p>This report was automatically generated by {{ company_name }}'s Competitive Intelligence System.</p>
+        <p>For questions or feedback, contact the growth team.</p>
+    </div>
+</body>
+</html>

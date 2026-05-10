@@ -1,0 +1,165 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Test on ${{ matrix.os }} with Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python-version: ["3.10", "3.11", "3.12"]
+        include:
+          - os: ubuntu-latest
+            python-version: "3.11"
+            platform: linux/amd64
+          - os: ubuntu-latest
+            python-version: "3.11"
+            platform: linux/arm64
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/pyproject.toml') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install system dependencies (Ubuntu)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential libxml2-dev libxslt-dev libffi-dev
+
+    - name: Install system dependencies (macOS)
+      if: matrix.os == 'macos-latest'
+      run: |
+        brew install libxml2 libxslt libffi
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e .
+
+    - name: Show dependency versions
+      run: |
+        pip freeze | grep -E "(lxml|beautifulsoup|scrapy)"
+
+    - name: Smoke Test - Scrapy Check
+      run: |
+        scrapy check stanbic_spider
+
+    - name: Test imports
+      run: |
+        python -c "
+from bs4 import BeautifulSoup
+import lxml
+from lxml.html import clean
+print('✅ All imports successful')
+print(f'lxml version: {lxml.__version__}')
+"
+
+    - name: Test BeautifulSoup with lxml
+      run: |
+        python -c "
+from bs4 import BeautifulSoup
+soup = BeautifulSoup('<html><body>Test</body></html>', 'lxml')
+print('✅ BeautifulSoup with lxml parser works')
+"
+
+  docker-test:
+    name: Docker Test (${{ matrix.platform }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        platform: [linux/amd64, linux/arm64]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        file: ./Dockerfile.fixed
+        platforms: ${{ matrix.platform }}
+        push: false
+        load: false
+        tags: stanbic-scraper:test
+
+    - name: Test Docker image (amd64 only)
+      if: matrix.platform == 'linux/amd64'
+      run: |
+        docker build -f Dockerfile.fixed -t stanbic-scraper:test .
+        docker run --rm stanbic-scraper:test scrapy check stanbic_spider
+
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        pip install safety bandit
+        pip install -e .
+
+    - name: Run Safety Check
+      run: safety check --json || true
+
+    - name: Run Bandit Security Scan
+      run: bandit -r src/ -f json || true
+
+  dependency-check:
+    name: Dependency Compatibility Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install pip-tools
+      run: pip install pip-tools
+
+    - name: Compile requirements
+      run: |
+        pip-compile pyproject.toml --output-file=requirements.txt
+
+    - name: Check for dependency conflicts
+      run: |
+        pip install -r requirements.txt
+        python -c "
+from bs4 import BeautifulSoup
+import lxml
+from lxml.html import clean
+print('✅ Dependencies are compatible')
+"

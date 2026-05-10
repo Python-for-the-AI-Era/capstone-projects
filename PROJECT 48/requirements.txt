@@ -1,0 +1,48 @@
+# Core ML and Audio Processing
+torch==2.1.1
+torchaudio==2.1.1
+numpy==1.24.4
+scipy==1.11.4
+librosa==0.10.1
+soundfile==0.12.1
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Data Processing
+pandas==2.1.4
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Async and Utilities
+asyncio-mqtt==0.16.1
+aiofiles==23.2.0
+structlog==23.2.0
+
+# Mobile API Support
+httpx==0.25.2
+cryptography==41.0.7
+jose==3.3.0
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Audio Recording (for testing)
+pyaudio==0.2.14
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+tqdm==4.66.1
+
+# System Monitoring
+psutil==5.9.6
+prometheus-client==0.19.0

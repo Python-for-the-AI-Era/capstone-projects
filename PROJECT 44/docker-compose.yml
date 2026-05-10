@@ -1,0 +1,249 @@
+version: '3.8'
+
+services:
+  # Redis for distributed URL frontier and deduplication
+  redis:
+    image: redis:7-alpine
+    container_name: crawler_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - crawler_network
+
+  # PostgreSQL for data storage
+  postgres:
+    image: postgres:15-alpine
+    container_name: crawler_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-crawler_db}
+      POSTGRES_USER: ${POSTGRES_USER:-crawler}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-crawler} -d ${POSTGRES_DB:-crawler_db}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - crawler_network
+
+  # Scrapy worker 1
+  scrapy-worker-1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scrapy_worker_1
+    environment:
+      - REDIS_HOST=redis
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-crawler}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-crawler_db}
+      - CRAWLER_WORKER_ID=1
+      - CRAWLER_LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./httpcache:/app/httpcache
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    command: scrapy crawl nigerian_news
+    networks:
+      - crawler_network
+
+  # Scrapy worker 2
+  scrapy-worker-2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scrapy_worker_2
+    environment:
+      - REDIS_HOST=redis
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-crawler}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-crawler_db}
+      - CRAWLER_WORKER_ID=2
+      - CRAWLER_LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./httpcache:/app/httpcache
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    command: scrapy crawl nigerian_news
+    networks:
+      - crawler_network
+
+  # Scrapy worker 3
+  scrapy-worker-3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scrapy_worker_3
+    environment:
+      - REDIS_HOST=redis
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-crawler}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-crawler_db}
+      - CRAWLER_WORKER_ID=3
+      - CRAWLER_LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./httpcache:/app/httpcache
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    command: scrapy crawl nigerian_news
+    networks:
+      - crawler_network
+
+  # Scrapy worker 4
+  scrapy-worker-4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scrapy_worker_4
+    environment:
+      - REDIS_HOST=redis
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-crawler}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-crawler_db}
+      - CRAWLER_WORKER_ID=4
+      - CRAWLER_LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./httpcache:/app/httpcache
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    command: scrapy crawl nigerian_news
+    networks:
+      - crawler_network
+
+  # Prometheus for metrics collection
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: crawler_prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=30d'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+    networks:
+      - crawler_network
+
+  # Grafana for visualization
+  grafana:
+    image: grafana/grafana:latest
+    container_name: crawler_grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+    networks:
+      - crawler_network
+
+  # Redis Commander for Redis management
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: crawler_redis_commander
+    ports:
+      - "8081:8081"
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - crawler_network
+
+  # pgAdmin for PostgreSQL management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: crawler_pgadmin
+    ports:
+      - "5050:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@university.edu
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - crawler_network
+
+  # Nginx for load balancing and reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: crawler_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - prometheus
+      - grafana
+    restart: unless-stopped
+    networks:
+      - crawler_network
+
+volumes:
+  redis_data:
+    driver: local
+  postgres_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+networks:
+  crawler_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

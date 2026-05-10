@@ -1,5 +1,6 @@
 import time
 import statistics
+import numpy as np
 
 def benchmark_search(client, num_queries=1000):
     latencies = []

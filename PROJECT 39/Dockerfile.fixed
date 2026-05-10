@@ -1,0 +1,28 @@
+# Fixed Dockerfile using Python 3.11 for better lxml compatibility
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies required for lxml compilation
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libxml2-dev \
+    libxslt-dev \
+    libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy pyproject.toml first for better Docker layer caching
+COPY pyproject.toml .
+
+# Install dependencies with the fixed versions
+RUN pip install --upgrade pip && \
+    pip install -e .
+
+# Copy the rest of the application
+COPY . .
+
+# Verify installation with smoke test
+RUN scrapy check stanbic_spider
+
+# Run the spider
+CMD ["scrapy", "crawl", "stanbic_spider"]

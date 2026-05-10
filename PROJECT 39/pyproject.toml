@@ -3,10 +3,14 @@ name = "stanbic-scraper"
 version = "0.1.0"
 dependencies = [
     "Scrapy>=2.11.0",
-    "lxml==4.9.4",        # Explicitly pinning to a stable version
-    "lxml-html-clean==0.1.1", # Resolving the missing module error
+    "lxml>=4.9.0,<5.0.0",  # Pin to pre-5.0 to avoid breaking changes
+    "lxml-html-clean>=0.1.0",  # Required for lxml 5.0+ compatibility
     "beautifulsoup4>=4.12.0"
 ]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]

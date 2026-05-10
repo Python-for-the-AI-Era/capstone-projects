@@ -1,0 +1,1001 @@
+case_id,title
+CASE_000000,"Chandler Group v. Nielsen, Ellis and Fernandez - Family Law Dispute"
+CASE_000001,"Flores, Herring and Harrison v. Frank, Foster and Ballard - Real Estate Transaction"
+CASE_000002,"Brown-Snyder v. Bryant, Monroe and Tran - Contract Breach"
+CASE_000003,"Jones, Watson and Miller v. Whitehead and Sons - Insurance Claim Dispute"
+CASE_000004,"Thompson and Sons v. Walters, Scott and Patrick - Civil Rights Violation"
+CASE_000005,Smith-Ruiz v. Little-Khan - Corporate Governance
+CASE_000006,Price PLC v. Cantrell-Gordon - Civil Rights Violation
+CASE_000007,"Mathews, Morales and Molina v. Bowman-Anderson - Medical Malpractice"
+CASE_000008,"Ramos, Valdez and Gill v. Robinson-Beltran - Bankruptcy Proceedings"
+CASE_000009,"Brown LLC v. Mathis, Henderson and Sullivan - Intellectual Property Infringement"
+CASE_000010,"Gonzalez, Carroll and Woods v. Travis, Fox and Miller - Real Estate Transaction"
+CASE_000011,White Inc v. Richard-Ward - Employment Termination
+CASE_000012,Fitzpatrick and Sons v. Kim-Freeman - Land Ownership Dispute
+CASE_000013,"Knight, Tapia and Brown v. Thomas-Olson - Family Law Dispute"
+CASE_000014,"Oneal, Sanchez and Adkins v. Johnston-Robinson - Family Law Dispute"
+CASE_000015,Luna-Hawkins v. Oneal and Sons - Criminal Defense
+CASE_000016,"White LLC v. Crawford, Woods and Long - Family Law Dispute"
+CASE_000017,Stewart Ltd v. Harrington-Banks - Civil Rights Violation
+CASE_000018,"Short and Sons v. Campos, Williamson and Rogers - Civil Rights Violation"
+CASE_000019,Obrien-Mccoy v. Stephens Ltd - Medical Malpractice
+CASE_000020,"Williams, Taylor and Garcia v. Alvarez-Ryan - Civil Rights Violation"
+CASE_000021,Hudson Ltd v. Thompson Inc - Contract Breach
+CASE_000022,Wallace PLC v. Andrews Inc - Intellectual Property Infringement
+CASE_000023,Gallegos-Blankenship v. Andrews-Yoder - Contract Breach
+CASE_000024,"Moore, Barnes and Watson v. Poole and Sons - Intellectual Property Infringement"
+CASE_000025,"Moore-Hudson v. Johnston, Hayes and Young - Corporate Governance"
+CASE_000026,Payne-Woods v. Bruce PLC - Criminal Defense
+CASE_000027,"Dunn, Yates and Erickson v. Gordon, Graham and Davis - Insurance Claim Dispute"
+CASE_000028,Dyer PLC v. Sweeney-Hunter - Tax Evasion
+CASE_000029,Jensen Ltd v. Fisher-Smith - Land Ownership Dispute
+CASE_000030,"Clark, Marshall and Saunders v. Davidson Group - Intellectual Property Infringement"
+CASE_000031,"Ward, Jones and Smith v. Schmidt Group - Medical Malpractice"
+CASE_000032,"Anderson, Weaver and Morales v. Lester-Stone - Land Ownership Dispute"
+CASE_000033,Wilson Ltd v. Salazar PLC - Intellectual Property Infringement
+CASE_000034,"Baker PLC v. Pearson, Hernandez and Rhodes - Tax Evasion"
+CASE_000035,"Anderson-Woodward v. Salinas, Oneill and Herman - Civil Rights Violation"
+CASE_000036,"Wilson, Santos and Horne v. Glover Group - Medical Malpractice"
+CASE_000037,Moreno Inc v. Walter-Cook - Civil Rights Violation
+CASE_000038,Hodge PLC v. Foster LLC - Family Law Dispute
+CASE_000039,"Wright, Weber and Cruz v. Adams, Saunders and Mays - Civil Rights Violation"
+CASE_000040,Chavez Ltd v. Hughes Ltd - Medical Malpractice
+CASE_000041,"Cooper Ltd v. Weaver, Stanton and Rodriguez - Consumer Protection"
+CASE_000042,"Johns, Edwards and Smith v. Aguilar-James - Civil Rights Violation"
+CASE_000043,"Crane Inc v. Lewis, Conrad and Castro - Employment Termination"
+CASE_000044,Lopez-Marshall v. Ortega-Robinson - Contract Breach
+CASE_000045,"Russo, Morgan and Weaver v. Jenkins-Holland - Employment Termination"
+CASE_000046,Beard-Graham v. Maldonado PLC - Civil Rights Violation
+CASE_000047,"Smith and Sons v. Curtis, Walters and Reilly - Insurance Claim Dispute"
+CASE_000048,Vargas LLC v. Duncan-Lopez - Bankruptcy Proceedings
+CASE_000049,"Hammond-May v. Castro, Johnson and Zavala - Civil Rights Violation"
+CASE_000050,Davis PLC v. Miller-Lucero - Criminal Defense
+CASE_000051,"Tran, Martin and Hughes v. Turner PLC - Medical Malpractice"
+CASE_000052,"Owens, Davenport and Turner v. Guzman, Mays and Smith - Environmental Regulation"
+CASE_000053,Johnson PLC v. Harmon Group - Employment Termination
+CASE_000054,"Mcknight Ltd v. Kline, Melendez and Williams - Insurance Claim Dispute"
+CASE_000055,Vega Ltd v. Olson Inc - Contract Breach
+CASE_000056,"Moody, Patterson and Barrera v. Smith Ltd - Real Estate Transaction"
+CASE_000057,"Davies, Jackson and Mendoza v. Nichols PLC - Insurance Claim Dispute"
+CASE_000058,"Elliott, Rogers and Fletcher v. Ramirez-Hopkins - Corporate Governance"
+CASE_000059,"Boyle and Sons v. Nunez, Gregory and Wilkerson - Corporate Governance"
+CASE_000060,Kennedy-Mendez v. Juarez Inc - Tax Evasion
+CASE_000061,Dunn-Ingram v. Mckee-Dillon - Intellectual Property Infringement
+CASE_000062,"Brown Inc v. Alexander, Mccarthy and Walker - Medical Malpractice"
+CASE_000063,"Crawford, Gonzales and Mccormick v. Simmons, Reeves and Potter - Civil Rights Violation"
+CASE_000064,Gray LLC v. Mack-Merritt - Medical Malpractice
+CASE_000065,"Roberts, Bond and Cochran v. Bryant-Christensen - Consumer Protection"
+CASE_000066,Pham-Ford v. Bishop and Sons - Land Ownership Dispute
+CASE_000067,"Ramsey, Snyder and Sanders v. Buck Ltd - Intellectual Property Infringement"
+CASE_000068,Martinez-Salazar v. Wilson PLC - Civil Rights Violation
+CASE_000069,"Moore, Gonzalez and Pearson v. Lee PLC - Intellectual Property Infringement"
+CASE_000070,"Johns and Sons v. Miller, Ayers and Miller - Intellectual Property Infringement"
+CASE_000071,Jordan-Duncan v. Cameron-Sullivan - Bankruptcy Proceedings
+CASE_000072,"Smith, Gregory and Simmons v. Wilson, Patterson and Anderson - Bankruptcy Proceedings"
+CASE_000073,"Page, Berger and Castaneda v. Mcdonald, Hodge and Robles - Medical Malpractice"
+CASE_000074,Smith-Alexander v. Mcgee-Dyer - Corporate Governance
+CASE_000075,"Jordan, Olsen and Rhodes v. Hernandez LLC - Environmental Regulation"
+CASE_000076,"Escobar-Keller v. King, Coleman and Oconnor - Civil Rights Violation"
+CASE_000077,Gomez-Lopez v. Carter PLC - Consumer Protection
+CASE_000078,Cook-Lane v. Davis-Smith - Medical Malpractice
+CASE_000079,"Daniels-Barry v. Thomas, Smith and Cross - Insurance Claim Dispute"
+CASE_000080,"Garcia, Mendoza and Henderson v. Nash, Davis and Chang - Civil Rights Violation"
+CASE_000081,"Alexander, Garza and Wiggins v. Walker-Gomez - Corporate Governance"
+CASE_000082,"Travis-Moore v. Johnson, Andersen and Armstrong - Employment Termination"
+CASE_000083,"Pace-Hoover v. Ochoa, Adams and Simmons - Criminal Defense"
+CASE_000084,"Bryant-Pham v. Barron, Li and Mayer - Insurance Claim Dispute"
+CASE_000085,"Rogers-Davis v. Young, Foster and Chang - Bankruptcy Proceedings"
+CASE_000086,Hayes LLC v. Johnson-Dennis - Tax Evasion
+CASE_000087,"Robinson, Haynes and Bryant v. Gray, Bennett and Mcdonald - Intellectual Property Infringement"
+CASE_000088,"Frazier, Wells and Scott v. Benson, Hughes and Smith - Employment Termination"
+CASE_000089,"Glover, Chen and Hall v. Maldonado, Kramer and Anderson - Environmental Regulation"
+CASE_000090,"Lewis, Boyd and Butler v. Frye Group - Bankruptcy Proceedings"
+CASE_000091,"Mills, Warner and Smith v. Dennis, Morris and Gibson - Criminal Defense"
+CASE_000092,Hernandez-Goodwin v. Vance-Banks - Tax Evasion
+CASE_000093,"Graham-Edwards v. Porter, Phillips and Thomas - Employment Termination"
+CASE_000094,"Miller, Cunningham and Rogers v. Brown, Sanders and Lawson - Intellectual Property Infringement"
+CASE_000095,"Fox Inc v. Moore, Wright and Rivers - Tax Evasion"
+CASE_000096,"Smith, Wright and Davis v. Perez, Jones and Kim - Contract Breach"
+CASE_000097,"Pearson, Moore and Roth v. Cortez, Morris and Solis - Insurance Claim Dispute"
+CASE_000098,Barber-Williams v. Carter Inc - Criminal Defense
+CASE_000099,"Greene, Wood and Sutton v. Peters-Haynes - Insurance Claim Dispute"
+CASE_000100,"Lutz, Richardson and Miller v. Tate-Sutton - Criminal Defense"
+CASE_000101,Chase-Hinton v. Richards Inc - Corporate Governance
+CASE_000102,"Crane-Perez v. Salinas, Miller and Miller - Insurance Claim Dispute"
+CASE_000103,Benton Ltd v. Thompson Ltd - Bankruptcy Proceedings
+CASE_000104,Meadows PLC v. Franklin-Cruz - Employment Termination
+CASE_000105,Hill-Freeman v. Berger-Hernandez - Tax Evasion
+CASE_000106,"Hall, Holden and Rivera v. Cox and Sons - Tax Evasion"
+CASE_000107,Edwards LLC v. Gross-Williams - Bankruptcy Proceedings
+CASE_000108,Sanders-Moss v. Young-Jordan - Land Ownership Dispute
+CASE_000109,"Smith LLC v. Jenkins, Johnson and Valenzuela - Medical Malpractice"
+CASE_000110,Evans-Perez v. Greene Group - Consumer Protection
+CASE_000111,Solis Inc v. Hughes PLC - Contract Breach
+CASE_000112,Blanchard-Jensen v. Farrell Inc - Bankruptcy Proceedings
+CASE_000113,Guerrero Inc v. Riddle-Hoover - Land Ownership Dispute
+CASE_000114,"Johnson, Curtis and Butler v. Franco, Davis and Kennedy - Consumer Protection"
+CASE_000115,"Hale PLC v. Baker, Diaz and Cole - Medical Malpractice"
+CASE_000116,"Maxwell, Mathews and Shelton v. Hubbard-Perez - Criminal Defense"
+CASE_000117,Brewer Ltd v. Matthews Ltd - Employment Termination
+CASE_000118,Thomas-Williams v. Fisher Ltd - Consumer Protection
+CASE_000119,"Ferguson-Bryant v. Weaver, Johnson and Jones - Insurance Claim Dispute"
+CASE_000120,Thompson Group v. Meyers PLC - Real Estate Transaction
+CASE_000121,"Raymond-Powell v. Alexander, Carr and Duarte - Corporate Governance"
+CASE_000122,Garcia Inc v. Smith Ltd - Employment Termination
+CASE_000123,"Smith and Sons v. Green, Simon and Davies - Environmental Regulation"
+CASE_000124,"Roman PLC v. Fields, Figueroa and Riley - Bankruptcy Proceedings"
+CASE_000125,Pena Group v. Lester-Ford - Insurance Claim Dispute
+CASE_000126,"Prince, Meadows and Tyler v. Guerra-Rogers - Consumer Protection"
+CASE_000127,"Khan-Roach v. Reed, Valenzuela and Mcknight - Environmental Regulation"
+CASE_000128,Cannon Ltd v. Reed-Rios - Bankruptcy Proceedings
+CASE_000129,"Silva and Sons v. Graves, Le and Richardson - Medical Malpractice"
+CASE_000130,"Clark, Moreno and Hughes v. Bates, Dunn and Howard - Medical Malpractice"
+CASE_000131,"Davis, Boyd and Jackson v. Miller, Friedman and Phillips - Intellectual Property Infringement"
+CASE_000132,Turner-Brady v. Keller Group - Employment Termination
+CASE_000133,"Brown LLC v. Guzman, Odonnell and Williams - Civil Rights Violation"
+CASE_000134,Stone-Chang v. Dickerson-Lane - Criminal Defense
+CASE_000135,Webb-Moon v. Hayes-Howard - Bankruptcy Proceedings
+CASE_000136,"Jacobs-Owen v. Taylor, Saunders and Mckenzie - Land Ownership Dispute"
+CASE_000137,"Sharp Ltd v. Melendez, Tran and Gomez - Insurance Claim Dispute"
+CASE_000138,"Reyes, Pena and West v. Clark and Sons - Real Estate Transaction"
+CASE_000139,Glover LLC v. Walker-Norris - Medical Malpractice
+CASE_000140,Johnson-Johnston v. Marsh-Maxwell - Environmental Regulation
+CASE_000141,"Daniels, Crawford and Young v. Matthews and Sons - Contract Breach"
+CASE_000142,"Garcia Group v. Hayes, Carlson and Owen - Intellectual Property Infringement"
+CASE_000143,Burke PLC v. Watson and Sons - Bankruptcy Proceedings
+CASE_000144,"Contreras, Rivera and Stephens v. Myers, Johnson and Donaldson - Corporate Governance"
+CASE_000145,Barker-Ramos v. Campbell-Long - Environmental Regulation
+CASE_000146,Dominguez PLC v. Mason-Welch - Family Law Dispute
+CASE_000147,"Curry, Howard and Smith v. Carter LLC - Bankruptcy Proceedings"
+CASE_000148,"Thomas Ltd v. Moore, Wright and Moon - Criminal Defense"
+CASE_000149,Schroeder-Hernandez v. Mendez Group - Intellectual Property Infringement
+CASE_000150,Davis-Wood v. Koch-Beck - Consumer Protection
+CASE_000151,Walker Ltd v. Crawford Group - Employment Termination
+CASE_000152,"Weber-Miller v. Sawyer, Duke and Nelson - Criminal Defense"
+CASE_000153,"Stewart-Cook v. Boyd, Gutierrez and Glass - Tax Evasion"
+CASE_000154,Gonzalez Group v. Lyons-Erickson - Consumer Protection
+CASE_000155,Williams PLC v. Mason Ltd - Tax Evasion
+CASE_000156,Greer LLC v. Hodge-Bond - Medical Malpractice
+CASE_000157,"Powell, Robinson and Sloan v. Forbes-Horton - Contract Breach"
+CASE_000158,Perez Inc v. Bush-Escobar - Environmental Regulation
+CASE_000159,"Kramer Ltd v. Williams, Watson and Vasquez - Land Ownership Dispute"
+CASE_000160,Green LLC v. Hendricks-Taylor - Environmental Regulation
+CASE_000161,Moreno-Villarreal v. Schroeder Group - Environmental Regulation
+CASE_000162,Curry-Simmons v. Lyons Ltd - Intellectual Property Infringement
+CASE_000163,Huynh Ltd v. Hicks-Peters - Intellectual Property Infringement
+CASE_000164,"Baker-Nelson v. Frost, Campbell and Solomon - Intellectual Property Infringement"
+CASE_000165,Nguyen-Garcia v. Collins Group - Land Ownership Dispute
+CASE_000166,"Roberts, Clark and Jones v. Fisher Ltd - Employment Termination"
+CASE_000167,"Nguyen, Patrick and Howell v. May-Adams - Family Law Dispute"
+CASE_000168,"Jacobs-Miller v. Ingram, Taylor and Adkins - Criminal Defense"
+CASE_000169,"Moore, Wright and Cisneros v. Brooks, Wilson and Baker - Civil Rights Violation"
+CASE_000170,Rivera-Jenkins v. Harrell-Davis - Medical Malpractice
+CASE_000171,Mcbride-Stewart v. Cruz-Walters - Consumer Protection
+CASE_000172,"Jones, Shaw and Stevens v. Ross, Cisneros and Osborne - Consumer Protection"
+CASE_000173,"Myers, Lopez and Williamson v. Lee, Dawson and Roberts - Criminal Defense"
+CASE_000174,"Lawrence, Sanchez and Guzman v. Chavez Ltd - Bankruptcy Proceedings"
+CASE_000175,"Anderson, Jones and Brown v. Wright-Wilson - Criminal Defense"
+CASE_000176,Lambert-Martinez v. Mendez-Nelson - Bankruptcy Proceedings
+CASE_000177,"Reeves, Hull and Acosta v. Lee, Rodriguez and Rojas - Real Estate Transaction"
+CASE_000178,Vega-Hill v. Nolan Ltd - Family Law Dispute
+CASE_000179,"Gray-Gardner v. Kelley, Odom and Oliver - Consumer Protection"
+CASE_000180,Johnson-Payne v. Ramirez LLC - Land Ownership Dispute
+CASE_000181,"Chapman, West and Tyler v. Middleton and Sons - Employment Termination"
+CASE_000182,Young-Pratt v. Murray Inc - Consumer Protection
+CASE_000183,"Arias-Gonzalez v. Martin, Dodson and Davis - Land Ownership Dispute"
+CASE_000184,"Goodwin and Sons v. Cooper, Morris and Fox - Real Estate Transaction"
+CASE_000185,"Alvarez, Velez and Lynn v. Greene, Luna and Marks - Bankruptcy Proceedings"
+CASE_000186,"Hull, Martin and Jackson v. Patterson-Berger - Real Estate Transaction"
+CASE_000187,Harris-Clarke v. Lewis-Gordon - Civil Rights Violation
+CASE_000188,"Davis Ltd v. Smith, Thomas and Patton - Consumer Protection"
+CASE_000189,"Garrett, Jones and Merritt v. Brown-Thomas - Family Law Dispute"
+CASE_000190,"Warner, Stephenson and Ferguson v. Brown, Mason and Swanson - Land Ownership Dispute"
+CASE_000191,Ford-Chavez v. Campbell-Nicholson - Land Ownership Dispute
+CASE_000192,"Craig, Roberts and Sullivan v. Ferguson Group - Consumer Protection"
+CASE_000193,Coleman Ltd v. Perry Ltd - Civil Rights Violation
+CASE_000194,"Ramos, Bridges and Mullen v. Butler PLC - Contract Breach"
+CASE_000195,"Martin, Ward and Owens v. Saunders, Rodriguez and House - Civil Rights Violation"
+CASE_000196,"Smith, Hughes and Robles v. Little, Pope and Kelly - Criminal Defense"
+CASE_000197,Short-Hoover v. Wallace-Reed - Intellectual Property Infringement
+CASE_000198,"Martin and Sons v. Flowers, Wells and Arias - Environmental Regulation"
+CASE_000199,"Gonzalez-Hawkins v. Odonnell, Harris and Cummings - Criminal Defense"
+CASE_000200,Cummings LLC v. Edwards-Maldonado - Tax Evasion
+CASE_000201,"Parker, Smith and Williams v. Todd, Hamilton and Vargas - Tax Evasion"
+CASE_000202,Sanchez Ltd v. Garcia-Clark - Civil Rights Violation
+CASE_000203,Foster-Fischer v. Pruitt-Howard - Bankruptcy Proceedings
+CASE_000204,Stafford-Booker v. Werner Ltd - Tax Evasion
+CASE_000205,Bailey LLC v. Richardson PLC - Employment Termination
+CASE_000206,"Brooks, Foster and Alvarado v. Sanders, Davis and Scott - Consumer Protection"
+CASE_000207,"Smith-Garza v. Oliver, Rush and Taylor - Corporate Governance"
+CASE_000208,"Crawford-Aguirre v. Wilson, Acevedo and Lozano - Corporate Governance"
+CASE_000209,"Thomas, Hughes and Knight v. Molina, Kerr and Keller - Environmental Regulation"
+CASE_000210,"Thompson Inc v. Fowler, Martin and Rivera - Bankruptcy Proceedings"
+CASE_000211,Fernandez-Wells v. Reilly-Moore - Criminal Defense
+CASE_000212,"Torres, Knight and Allen v. Lopez, Christensen and Avila - Corporate Governance"
+CASE_000213,"Hill, Hernandez and Mitchell v. Robertson-Ortiz - Environmental Regulation"
+CASE_000214,"Lee, Friedman and Maxwell v. Zamora, Green and Petersen - Consumer Protection"
+CASE_000215,"Johnson-Martinez v. Gardner, Price and Jones - Insurance Claim Dispute"
+CASE_000216,Smith Inc v. Alvarez-Morris - Employment Termination
+CASE_000217,"Clark, Mann and Hale v. Torres Group - Land Ownership Dispute"
+CASE_000218,"Clark-Matthews v. Hall, Villanueva and Gardner - Civil Rights Violation"
+CASE_000219,"Maxwell-Mercado v. Randall, Marshall and Walker - Real Estate Transaction"
+CASE_000220,"Tapia LLC v. Yoder, Hansen and Stevens - Family Law Dispute"
+CASE_000221,Olson-Mcfarland v. Reed LLC - Consumer Protection
+CASE_000222,Young-Martinez v. Carr-Salazar - Medical Malpractice
+CASE_000223,Lewis-Estrada v. Horn-Cook - Employment Termination
+CASE_000224,"Douglas, Calhoun and Watson v. Jackson-Mcdonald - Civil Rights Violation"
+CASE_000225,"Griffith, Roberts and Padilla v. Harvey-Brown - Civil Rights Violation"
+CASE_000226,Farley PLC v. Harding-Moreno - Bankruptcy Proceedings
+CASE_000227,"Johnson Inc v. Boone, Salazar and Dyer - Environmental Regulation"
+CASE_000228,"Stewart-Osborne v. Byrd, Lindsey and Blair - Real Estate Transaction"
+CASE_000229,Sheppard-Hickman v. Cruz-Velazquez - Criminal Defense
+CASE_000230,"Goodman-Garcia v. Hill, Simpson and Cole - Insurance Claim Dispute"
+CASE_000231,"Gill, Solis and Soto v. Boyd PLC - Family Law Dispute"
+CASE_000232,"Chavez, Nguyen and Shelton v. Davidson-Williams - Insurance Claim Dispute"
+CASE_000233,Gibbs-Taylor v. Pierce Group - Employment Termination
+CASE_000234,Ramos-Le v. Frost Group - Consumer Protection
+CASE_000235,Booth Inc v. Daniels LLC - Contract Breach
+CASE_000236,"Boone-Martinez v. Nielsen, Clark and Skinner - Corporate Governance"
+CASE_000237,"Ramirez, Wilson and Atkinson v. Brown Group - Land Ownership Dispute"
+CASE_000238,Smith-Gordon v. Davis-Reed - Family Law Dispute
+CASE_000239,"Church, Scott and Jones v. Johnson-Barnes - Civil Rights Violation"
+CASE_000240,"Shaw Ltd v. Atkins, Hughes and Norris - Contract Breach"
+CASE_000241,"Brock-Evans v. Washington, Gomez and Munoz - Real Estate Transaction"
+CASE_000242,"Meyer Ltd v. Orr, Le and Ortiz - Medical Malpractice"
+CASE_000243,Levy-Gray v. Allen-Campbell - Civil Rights Violation
+CASE_000244,Elliott-Bautista v. Price LLC - Intellectual Property Infringement
+CASE_000245,"Lee-Roberts v. Warren, Stephenson and Crawford - Bankruptcy Proceedings"
+CASE_000246,"Andrews, Miller and Tate v. Dennis Group - Contract Breach"
+CASE_000247,Sims-Mejia v. Hall and Sons - Environmental Regulation
+CASE_000248,"Roberts LLC v. Bailey, Perez and Hayden - Medical Malpractice"
+CASE_000249,Newman-Mccullough v. Valentine-Silva - Criminal Defense
+CASE_000250,Sutton-Williams v. Reyes LLC - Consumer Protection
+CASE_000251,"Anderson, Davis and Perez v. Russo LLC - Bankruptcy Proceedings"
+CASE_000252,"Sparks Group v. Moreno, Rich and Jackson - Real Estate Transaction"
+CASE_000253,Romero Group v. Dunlap-Smith - Employment Termination
+CASE_000254,Meyer PLC v. Gaines Ltd - Corporate Governance
+CASE_000255,Johnson Ltd v. Parks PLC - Insurance Claim Dispute
+CASE_000256,Hall Inc v. Martin-Benjamin - Medical Malpractice
+CASE_000257,"Brown, Fitzgerald and Pham v. Flores-Gray - Contract Breach"
+CASE_000258,"Wang, Marks and Robinson v. Barton and Sons - Family Law Dispute"
+CASE_000259,Haney PLC v. Evans PLC - Medical Malpractice
+CASE_000260,"Barton, Ward and Carter v. Rodriguez, Wise and Johnson - Contract Breach"
+CASE_000261,Garza Group v. Perez Ltd - Consumer Protection
+CASE_000262,Wells-Haney v. Taylor-Roy - Medical Malpractice
+CASE_000263,"Oneill Ltd v. Drake, Acosta and Abbott - Criminal Defense"
+CASE_000264,Nguyen PLC v. Waters-Sanford - Bankruptcy Proceedings
+CASE_000265,"Alvarez, Rodriguez and Hill v. Hayes Ltd - Employment Termination"
+CASE_000266,"Tran-Dean v. Stevens, Holt and Pollard - Environmental Regulation"
+CASE_000267,Ruiz-Smith v. Williams Group - Real Estate Transaction
+CASE_000268,Miller Ltd v. Moore-Frazier - Consumer Protection
+CASE_000269,"Sanders, Douglas and Johnson v. Burton, Martinez and Khan - Consumer Protection"
+CASE_000270,"Mitchell, Morrow and Jackson v. Mcgrath, Stone and Henry - Contract Breach"
+CASE_000271,Edwards-Griffith v. Tapia and Sons - Contract Breach
+CASE_000272,Olson Ltd v. Hamilton and Sons - Insurance Claim Dispute
+CASE_000273,Roberts-Thompson v. Adams Group - Environmental Regulation
+CASE_000274,"Pineda-Haynes v. Mitchell, Glass and Mitchell - Corporate Governance"
+CASE_000275,Johnson-Herrera v. Gibson-Goodman - Civil Rights Violation
+CASE_000276,Jones LLC v. Martinez and Sons - Bankruptcy Proceedings
+CASE_000277,Oneill-Williams v. Buchanan-Barnes - Bankruptcy Proceedings
+CASE_000278,"Burke, Davis and Lindsey v. Evans, Bowen and Beck - Intellectual Property Infringement"
+CASE_000279,Smith and Sons v. Howell-Reid - Family Law Dispute
+CASE_000280,Jones Inc v. Atkins and Sons - Family Law Dispute
+CASE_000281,"Palmer, Torres and Hill v. Ramsey, Eaton and Everett - Tax Evasion"
+CASE_000282,"Jordan, Pena and Santana v. Woodward LLC - Employment Termination"
+CASE_000283,"Hamilton Ltd v. Robinson, Rogers and Tate - Real Estate Transaction"
+CASE_000284,Ross-Schroeder v. Thornton LLC - Consumer Protection
+CASE_000285,"Smith Group v. Eaton, Newman and Pope - Land Ownership Dispute"
+CASE_000286,Coleman and Sons v. Hubbard LLC - Tax Evasion
+CASE_000287,"Rodriguez, Garcia and Johnson v. Blackwell-Terry - Medical Malpractice"
+CASE_000288,"Barton PLC v. Riggs, Larson and Zimmerman - Intellectual Property Infringement"
+CASE_000289,Taylor-Floyd v. Hall-Roberson - Criminal Defense
+CASE_000290,"Lee, Lewis and Simmons v. Collins-Thompson - Family Law Dispute"
+CASE_000291,Williams-Contreras v. Raymond-Duffy - Intellectual Property Infringement
+CASE_000292,"Ponce-Butler v. Price, Christensen and Guerrero - Criminal Defense"
+CASE_000293,Waters LLC v. Lewis-Perry - Land Ownership Dispute
+CASE_000294,Ingram-Garcia v. Stewart-Henderson - Intellectual Property Infringement
+CASE_000295,Johnson Inc v. Frank Ltd - Environmental Regulation
+CASE_000296,"Jones, Martin and Greene v. Johnson-Mcpherson - Criminal Defense"
+CASE_000297,"Calhoun, Miller and Avila v. Ellison, Vazquez and Vega - Environmental Regulation"
+CASE_000298,Ryan and Sons v. Sheppard-Brown - Environmental Regulation
+CASE_000299,"White, Butler and Blanchard v. Wood-Black - Intellectual Property Infringement"
+CASE_000300,"Whitaker, Smith and Clements v. Rodriguez LLC - Tax Evasion"
+CASE_000301,"Smith Ltd v. Allen, Serrano and Barker - Civil Rights Violation"
+CASE_000302,Campbell-Wade v. Boyer-Kirby - Bankruptcy Proceedings
+CASE_000303,"Hayden, Williamson and Smith v. Ford-Wilkerson - Contract Breach"
+CASE_000304,Farmer-Brown v. Hall PLC - Contract Breach
+CASE_000305,"Yates LLC v. French, Bell and Shaffer - Tax Evasion"
+CASE_000306,"Jones, Martinez and Reid v. Owens, Hernandez and Palmer - Employment Termination"
+CASE_000307,"Griffin-Barnes v. Chen, Adams and Williams - Corporate Governance"
+CASE_000308,"Walker, Hoffman and Hoffman v. Foster Ltd - Medical Malpractice"
+CASE_000309,Thomas-Buck v. Mccullough-Brown - Environmental Regulation
+CASE_000310,"Knight, Wood and Smith v. Ochoa-Mays - Bankruptcy Proceedings"
+CASE_000311,Thomas-Savage v. Gonzalez LLC - Corporate Governance
+CASE_000312,Garcia PLC v. Ellis Ltd - Environmental Regulation
+CASE_000313,Collins-Mathews v. Roman Inc - Criminal Defense
+CASE_000314,"Moore Inc v. Galloway, Patterson and Hunter - Contract Breach"
+CASE_000315,Osborn-Townsend v. Potter Inc - Tax Evasion
+CASE_000316,Boyle-Gonzalez v. Vega-Herrera - Criminal Defense
+CASE_000317,Hogan-Morales v. Gonzales Group - Tax Evasion
+CASE_000318,"Smith, Castillo and Wyatt v. Cobb LLC - Consumer Protection"
+CASE_000319,"Dominguez Inc v. Myers, Steele and Cole - Consumer Protection"
+CASE_000320,"Arnold, Johnson and Newman v. Acevedo-Washington - Insurance Claim Dispute"
+CASE_000321,Harper Group v. Simon LLC - Employment Termination
+CASE_000322,Shaw LLC v. Mcgee Inc - Civil Rights Violation
+CASE_000323,Rogers-Goodman v. Miller and Sons - Employment Termination
+CASE_000324,Barron-Fleming v. Jones-Jensen - Contract Breach
+CASE_000325,"Perez, Walters and Mccann v. Jones, White and Smith - Family Law Dispute"
+CASE_000326,"Long, Pratt and Jimenez v. Molina, Gray and Hernandez - Environmental Regulation"
+CASE_000327,Clark LLC v. Bailey Inc - Consumer Protection
+CASE_000328,Hill and Sons v. Taylor-Vega - Tax Evasion
+CASE_000329,Ferrell Inc v. Rosales Ltd - Employment Termination
+CASE_000330,"Garcia, Thomas and Best v. Knox and Sons - Real Estate Transaction"
+CASE_000331,"Gonzalez, Griffin and Kidd v. Bell, Martinez and Carson - Corporate Governance"
+CASE_000332,"Joyce, Porter and Schwartz v. Parker, Jefferson and Griffin - Bankruptcy Proceedings"
+CASE_000333,Stewart-Smith v. Allen PLC - Medical Malpractice
+CASE_000334,"Gonzalez, Salinas and Stout v. Reyes-Yates - Medical Malpractice"
+CASE_000335,Campos Ltd v. Avila-Price - Environmental Regulation
+CASE_000336,Carroll Group v. Garcia-Potts - Family Law Dispute
+CASE_000337,"Boyd, Reed and Hansen v. Sanchez Inc - Medical Malpractice"
+CASE_000338,"Anderson, Hogan and Levy v. Sims LLC - Employment Termination"
+CASE_000339,Moran Inc v. Gonzalez-Kline - Family Law Dispute
+CASE_000340,Cross-Williams v. Ponce-Hicks - Employment Termination
+CASE_000341,Miller-Green v. Tran-Bailey - Family Law Dispute
+CASE_000342,Brown-Miller v. Cole-Gonzalez - Corporate Governance
+CASE_000343,"Joseph, King and James v. Hughes, Miles and Flores - Bankruptcy Proceedings"
+CASE_000344,Andrews Inc v. Schneider PLC - Intellectual Property Infringement
+CASE_000345,"Johnson LLC v. Houston, Fuller and Thompson - Consumer Protection"
+CASE_000346,"Woodard, Oconnor and Bennett v. Bryant-Anderson - Environmental Regulation"
+CASE_000347,Austin LLC v. Frederick and Sons - Real Estate Transaction
+CASE_000348,"Warren, Rodriguez and Pham v. Medina-Johnson - Intellectual Property Infringement"
+CASE_000349,Miller-Santana v. Chan-Bowman - Family Law Dispute
+CASE_000350,Peck-Brown v. Weber-Oneal - Environmental Regulation
+CASE_000351,"Knight, Chavez and Brock v. Sweeney, Jones and Reese - Contract Breach"
+CASE_000352,"Duran Group v. Arroyo, Pollard and Dawson - Insurance Claim Dispute"
+CASE_000353,Pittman-Garcia v. Baird-Burns - Tax Evasion
+CASE_000354,"Hopkins-Jackson v. Vasquez, Garrett and Guzman - Civil Rights Violation"
+CASE_000355,"Hoffman, Taylor and Marshall v. Carroll Group - Land Ownership Dispute"
+CASE_000356,"Barnes, Pugh and Fisher v. Clay, Potter and Moore - Civil Rights Violation"
+CASE_000357,"Mills-Krueger v. Miller, Ayala and Perez - Environmental Regulation"
+CASE_000358,Anderson Group v. Hart-Dean - Real Estate Transaction
+CASE_000359,Sandoval Group v. Bautista and Sons - Medical Malpractice
+CASE_000360,Gray-Brown v. Anderson-Freeman - Tax Evasion
+CASE_000361,Brooks LLC v. Webb Inc - Tax Evasion
+CASE_000362,Schmidt and Sons v. Allison-Smith - Environmental Regulation
+CASE_000363,"Ellis, Stephenson and Peterson v. Alvarez-Sanchez - Corporate Governance"
+CASE_000364,"Phillips-Wood v. Mckinney, Clark and Wilson - Consumer Protection"
+CASE_000365,Jackson and Sons v. Collins-Lee - Medical Malpractice
+CASE_000366,"Brown Inc v. Garcia, Watkins and Franklin - Consumer Protection"
+CASE_000367,Blanchard-Willis v. Hooper Inc - Consumer Protection
+CASE_000368,Patterson Inc v. Castro Inc - Bankruptcy Proceedings
+CASE_000369,Ellis-Olsen v. West-Peters - Environmental Regulation
+CASE_000370,Harrison-Bruce v. Clarke Ltd - Civil Rights Violation
+CASE_000371,Nelson Ltd v. Wu Ltd - Insurance Claim Dispute
+CASE_000372,Proctor-Mejia v. Duncan-Hamilton - Real Estate Transaction
+CASE_000373,Holden Inc v. Berg and Sons - Family Law Dispute
+CASE_000374,"Armstrong, Beck and Gomez v. Munoz-Colon - Contract Breach"
+CASE_000375,"Hester, Diaz and Lang v. Christensen, Mccoy and Martin - Criminal Defense"
+CASE_000376,"Vasquez Inc v. Li, Beard and Moreno - Family Law Dispute"
+CASE_000377,"Foster Ltd v. Ward, Crawford and Nelson - Civil Rights Violation"
+CASE_000378,"Williamson PLC v. Woodard, Harris and Burgess - Civil Rights Violation"
+CASE_000379,"Mcmillan-Melendez v. Robertson, Larson and Adkins - Civil Rights Violation"
+CASE_000380,Callahan Group v. Mendoza Inc - Insurance Claim Dispute
+CASE_000381,"Carlson Group v. Baker, Smith and Richmond - Criminal Defense"
+CASE_000382,"Palmer and Sons v. Edwards, Watts and Williams - Criminal Defense"
+CASE_000383,Davis-Hart v. Barker-Phillips - Tax Evasion
+CASE_000384,"Franklin, Roman and Powell v. Krause, Elliott and Cherry - Tax Evasion"
+CASE_000385,"Ortiz, Thompson and Hoffman v. Pace, Alexander and Glenn - Corporate Governance"
+CASE_000386,"Burns, Stevenson and Nicholson v. Lewis, Zhang and Fitzgerald - Bankruptcy Proceedings"
+CASE_000387,Gray-Gilbert v. Beck PLC - Corporate Governance
+CASE_000388,Scott and Sons v. Grant-Blake - Corporate Governance
+CASE_000389,Davidson-Wilson v. Russell and Sons - Land Ownership Dispute
+CASE_000390,"Santiago-Liu v. Farmer, Ross and Hall - Criminal Defense"
+CASE_000391,"Green, Evans and Mitchell v. Chandler, Fox and Fox - Tax Evasion"
+CASE_000392,Smith PLC v. Harris-Smith - Contract Breach
+CASE_000393,King-George v. Morris-Kaufman - Medical Malpractice
+CASE_000394,Caldwell-Kelly v. Arellano Group - Intellectual Property Infringement
+CASE_000395,Gibson-Matthews v. Dodson and Sons - Real Estate Transaction
+CASE_000396,Watson-Rush v. Guerrero Inc - Intellectual Property Infringement
+CASE_000397,Taylor and Sons v. Hooper PLC - Employment Termination
+CASE_000398,"Baird, Hicks and Jackson v. Stevens, Mccoy and Frazier - Family Law Dispute"
+CASE_000399,"Curry, Duffy and Wilkinson v. Scott Inc - Environmental Regulation"
+CASE_000400,"Lucas Group v. Graham, Rodriguez and Simon - Bankruptcy Proceedings"
+CASE_000401,"Thomas, Gonzalez and Anthony v. Chan, Williams and Wright - Consumer Protection"
+CASE_000402,Martinez Inc v. Sloan Inc - Environmental Regulation
+CASE_000403,"Patton, Morgan and Middleton v. Ellis-Roberts - Family Law Dispute"
+CASE_000404,Dickson-Mitchell v. Pitts-Smith - Consumer Protection
+CASE_000405,Blake Ltd v. Smith PLC - Bankruptcy Proceedings
+CASE_000406,Morrison Group v. Mitchell-Nelson - Bankruptcy Proceedings
+CASE_000407,Dawson-Rodriguez v. Curtis-Rodriguez - Bankruptcy Proceedings
+CASE_000408,Davis LLC v. Gonzales-Anderson - Medical Malpractice
+CASE_000409,Walsh-Wallace v. Henderson and Sons - Family Law Dispute
+CASE_000410,"Harris-Black v. Tapia, Summers and Hernandez - Employment Termination"
+CASE_000411,"Weiss, Lynch and Salas v. Robertson, Calhoun and Lopez - Environmental Regulation"
+CASE_000412,"Soto, Burke and Hughes v. Watson PLC - Contract Breach"
+CASE_000413,"Wilcox, Johnson and Martin v. Lopez and Sons - Corporate Governance"
+CASE_000414,"Singh, Keller and Roach v. Perez LLC - Intellectual Property Infringement"
+CASE_000415,Salazar-Henry v. Lawson PLC - Real Estate Transaction
+CASE_000416,Collier-Chapman v. Dillon-Boyd - Consumer Protection
+CASE_000417,Park-Lopez v. Ballard-Pugh - Family Law Dispute
+CASE_000418,"Gonzalez-Trevino v. Moore, Williams and Moore - Family Law Dispute"
+CASE_000419,"Rush Ltd v. Rojas, Warren and Wright - Corporate Governance"
+CASE_000420,"Moss Inc v. Morgan, Harris and Nguyen - Consumer Protection"
+CASE_000421,"Ward, Abbott and Khan v. Howard-Russo - Contract Breach"
+CASE_000422,"Montgomery, Patrick and Jones v. Lambert LLC - Tax Evasion"
+CASE_000423,Johnson-Phelps v. Arroyo Ltd - Insurance Claim Dispute
+CASE_000424,Silva Group v. Bautista-George - Land Ownership Dispute
+CASE_000425,"Lambert, West and Jones v. Melton-Pineda - Intellectual Property Infringement"
+CASE_000426,Fuller-Foster v. Greer-Webb - Family Law Dispute
+CASE_000427,"Butler, Kennedy and Brown v. Reyes-Moore - Employment Termination"
+CASE_000428,Shah Inc v. Horn LLC - Bankruptcy Proceedings
+CASE_000429,"Figueroa, Adams and Campbell v. Cole, Berry and Alexander - Corporate Governance"
+CASE_000430,Gallegos LLC v. Mitchell and Sons - Bankruptcy Proceedings
+CASE_000431,"Schmidt, Mcintyre and Graves v. Boyer Group - Contract Breach"
+CASE_000432,Hamilton-Brennan v. Perry-Young - Consumer Protection
+CASE_000433,Alvarez LLC v. Ford Group - Tax Evasion
+CASE_000434,Ortiz-Griffin v. Moore PLC - Environmental Regulation
+CASE_000435,Benson Group v. Boone-Reed - Civil Rights Violation
+CASE_000436,"Smith, Mcdaniel and Riley v. Kelly, Rogers and Medina - Civil Rights Violation"
+CASE_000437,"Craig, Hoover and Hamilton v. Liu and Sons - Corporate Governance"
+CASE_000438,Parker-Kirby v. Dawson-Grant - Intellectual Property Infringement
+CASE_000439,"Russell-Smith v. Clark, Glass and Patterson - Civil Rights Violation"
+CASE_000440,"Johnson-Clay v. Ross, Baker and Parks - Environmental Regulation"
+CASE_000441,Solomon-Vincent v. Hanson-Walker - Corporate Governance
+CASE_000442,Robertson-Kelly v. Dunn Inc - Medical Malpractice
+CASE_000443,"Fitzgerald, Velazquez and Patterson v. Kennedy, Galloway and Hernandez - Criminal Defense"
+CASE_000444,"Vega, Nunez and Perry v. Parker-Jimenez - Medical Malpractice"
+CASE_000445,Smith-Lam v. Ruiz Group - Intellectual Property Infringement
+CASE_000446,"Haas-Campbell v. Poole, Mason and Stewart - Corporate Governance"
+CASE_000447,"Harrison PLC v. Moore, Hicks and Torres - Civil Rights Violation"
+CASE_000448,"Parsons-Kemp v. Alexander, Gregory and Yang - Criminal Defense"
+CASE_000449,"Robertson-Parker v. Sanchez, Brown and Carney - Land Ownership Dispute"
+CASE_000450,Suarez-Frye v. Price-Williams - Criminal Defense
+CASE_000451,"Rangel, Austin and Bush v. Smith, Shepard and Rodriguez - Land Ownership Dispute"
+CASE_000452,Miranda Ltd v. Montoya-Jenkins - Environmental Regulation
+CASE_000453,"Garner, Macias and Moore v. Conner, Lopez and George - Medical Malpractice"
+CASE_000454,"Gonzalez-Myers v. Patterson, Castro and Werner - Bankruptcy Proceedings"
+CASE_000455,"Walker and Sons v. Benson, Brown and Coleman - Land Ownership Dispute"
+CASE_000456,"Smith, Carroll and Hancock v. James, Porter and Jackson - Employment Termination"
+CASE_000457,Rivers-Johnson v. Black PLC - Insurance Claim Dispute
+CASE_000458,"Wilson, Owens and Smith v. Townsend Group - Insurance Claim Dispute"
+CASE_000459,"Mata, Hill and May v. Contreras, Clark and Jones - Consumer Protection"
+CASE_000460,Jones LLC v. Clark Group - Criminal Defense
+CASE_000461,"White, Williams and Taylor v. Scott, Hogan and Newton - Employment Termination"
+CASE_000462,"Morris LLC v. Huffman, Hart and Robinson - Civil Rights Violation"
+CASE_000463,"Reynolds Ltd v. Smith, Richards and Newton - Contract Breach"
+CASE_000464,Pierce Group v. Martin-Johnson - Real Estate Transaction
+CASE_000465,"Alexander, Cuevas and Doyle v. Anderson LLC - Intellectual Property Infringement"
+CASE_000466,Richard Inc v. Clay Ltd - Contract Breach
+CASE_000467,"Bell, Williams and Holloway v. Tran-Cook - Medical Malpractice"
+CASE_000468,"Martinez LLC v. Conrad, Jackson and Ortiz - Insurance Claim Dispute"
+CASE_000469,"Medina, Myers and Weaver v. Johnson PLC - Contract Breach"
+CASE_000470,Ray-Woods v. George and Sons - Intellectual Property Infringement
+CASE_000471,"Murphy-Camacho v. Mullins, Young and Arnold - Family Law Dispute"
+CASE_000472,"Dillon, Houston and Medina v. Foster, Wright and Clark - Bankruptcy Proceedings"
+CASE_000473,"Holt Inc v. Reed, Tucker and Thompson - Corporate Governance"
+CASE_000474,Williams and Sons v. Hernandez-Melendez - Tax Evasion
+CASE_000475,"Bradley-Olson v. Thompson, Kennedy and Webb - Intellectual Property Infringement"
+CASE_000476,Schultz-Burnett v. Cooper PLC - Corporate Governance
+CASE_000477,"Shaw, Rice and Anderson v. Taylor-Hall - Medical Malpractice"
+CASE_000478,"Small-Bowers v. Martin, Jackson and Rodriguez - Land Ownership Dispute"
+CASE_000479,"Diaz, Hall and Montgomery v. Osborne, Mckinney and Martinez - Criminal Defense"
+CASE_000480,"Griffith, Nunez and Davis v. Hardy, Green and Hernandez - Tax Evasion"
+CASE_000481,"Jennings, Roach and Griffin v. Weber Group - Employment Termination"
+CASE_000482,"Nguyen, Lee and Berry v. Price, Woods and Romero - Corporate Governance"
+CASE_000483,"Carson, Castillo and Ponce v. Burgess-Shields - Environmental Regulation"
+CASE_000484,"Chung Ltd v. Rivera, Reed and Bolton - Family Law Dispute"
+CASE_000485,Pitts Group v. Ryan-Hartman - Civil Rights Violation
+CASE_000486,Wright Ltd v. Porter Ltd - Employment Termination
+CASE_000487,"Lynch-Ferrell v. Lyons, Williams and Henderson - Contract Breach"
+CASE_000488,Moore Inc v. Spencer-Fletcher - Consumer Protection
+CASE_000489,Shah-Davis v. Scott PLC - Employment Termination
+CASE_000490,"Sexton Inc v. Smith, Carr and Harrison - Corporate Governance"
+CASE_000491,"Higgins, Marshall and Beck v. Swanson PLC - Employment Termination"
+CASE_000492,"Gross PLC v. Martin, Butler and Dominguez - Tax Evasion"
+CASE_000493,Sexton LLC v. Taylor PLC - Medical Malpractice
+CASE_000494,"Madden, Mcpherson and Petersen v. Cain and Sons - Criminal Defense"
+CASE_000495,Riley PLC v. Morrow PLC - Tax Evasion
+CASE_000496,"Larson Group v. Cunningham, Newman and Le - Medical Malpractice"
+CASE_000497,Davis-Holmes v. Montes-Buck - Intellectual Property Infringement
+CASE_000498,Cowan-Fry v. Le-Martin - Civil Rights Violation
+CASE_000499,Lee and Sons v. Brown-Paul - Real Estate Transaction
+CASE_000500,Valentine Group v. Chandler Ltd - Insurance Claim Dispute
+CASE_000501,"Buckley-Anderson v. Francis, Rose and Ramos - Tax Evasion"
+CASE_000502,"Neal Ltd v. Mendoza, Houston and Gonzalez - Corporate Governance"
+CASE_000503,"Sandoval-Schultz v. Green, Franklin and Hurst - Insurance Claim Dispute"
+CASE_000504,"Miller-Cooley v. Mclean, Vaughan and Fisher - Medical Malpractice"
+CASE_000505,Austin-Moore v. Patton PLC - Bankruptcy Proceedings
+CASE_000506,Stevens and Sons v. Baker LLC - Real Estate Transaction
+CASE_000507,"Williams, Carson and Holloway v. James, Lewis and Pollard - Employment Termination"
+CASE_000508,Gallegos and Sons v. Bryant-Garner - Intellectual Property Infringement
+CASE_000509,"Wong, Silva and Willis v. Mcfarland-Walker - Consumer Protection"
+CASE_000510,Davis-Conway v. Morris-Powers - Consumer Protection
+CASE_000511,Miller Ltd v. Curtis-Hull - Insurance Claim Dispute
+CASE_000512,"Morrison LLC v. Myers, Bell and Schwartz - Bankruptcy Proceedings"
+CASE_000513,"Marquez, Washington and Daniels v. Rodriguez-Greer - Real Estate Transaction"
+CASE_000514,Black Inc v. Sexton PLC - Intellectual Property Infringement
+CASE_000515,Roach-Gentry v. Smith LLC - Insurance Claim Dispute
+CASE_000516,"Page-Taylor v. Lynch, Everett and Cook - Insurance Claim Dispute"
+CASE_000517,Hinton-Walker v. Fox-Kelley - Intellectual Property Infringement
+CASE_000518,"Dougherty-Collins v. Erickson, Dunlap and Graham - Real Estate Transaction"
+CASE_000519,Atkinson-Sweeney v. Cooper-Reyes - Criminal Defense
+CASE_000520,Murray-Sandoval v. Torres Group - Consumer Protection
+CASE_000521,Martinez PLC v. Cooper and Sons - Insurance Claim Dispute
+CASE_000522,Mata Ltd v. Baker-Williams - Environmental Regulation
+CASE_000523,"Jones-Valencia v. Noble, Aguilar and Ashley - Environmental Regulation"
+CASE_000524,Hodges-Callahan v. Martin-Cervantes - Corporate Governance
+CASE_000525,Ryan and Sons v. Holder-Griffith - Tax Evasion
+CASE_000526,"Silva Group v. Lewis, Young and Morrow - Criminal Defense"
+CASE_000527,Tyler-Atkins v. Fowler Group - Intellectual Property Infringement
+CASE_000528,"Woods, Burnett and Good v. Gonzales PLC - Intellectual Property Infringement"
+CASE_000529,Dean-Hernandez v. Diaz PLC - Medical Malpractice
+CASE_000530,Evans Inc v. Mccormick Inc - Real Estate Transaction
+CASE_000531,"Huffman PLC v. Cole, Fleming and Simmons - Contract Breach"
+CASE_000532,"Rodriguez, Myers and Long v. Harris-Reynolds - Environmental Regulation"
+CASE_000533,"Thomas-Golden v. Bailey, Kent and Ritter - Criminal Defense"
+CASE_000534,Hamilton and Sons v. Strickland-Heath - Consumer Protection
+CASE_000535,Glover PLC v. Clark-Torres - Land Ownership Dispute
+CASE_000536,Jimenez-Richards v. Gross Group - Real Estate Transaction
+CASE_000537,Fletcher-Brown v. Jones LLC - Civil Rights Violation
+CASE_000538,"Clark Ltd v. Gibson, Noble and Hernandez - Contract Breach"
+CASE_000539,"Rose Ltd v. Prince, Rodriguez and Torres - Medical Malpractice"
+CASE_000540,"Cherry, Castillo and Robinson v. Johnson, Garcia and Black - Insurance Claim Dispute"
+CASE_000541,Lewis and Sons v. Hudson-Brown - Consumer Protection
+CASE_000542,Case-Daniels v. Clark-Lane - Insurance Claim Dispute
+CASE_000543,"Morton Ltd v. Watkins, Reyes and Cook - Medical Malpractice"
+CASE_000544,Fox-Bell v. Walls PLC - Corporate Governance
+CASE_000545,"Mckenzie LLC v. Chavez, Rogers and Andersen - Insurance Claim Dispute"
+CASE_000546,Green PLC v. Wolf-Richards - Real Estate Transaction
+CASE_000547,"Price, Sparks and Hardin v. Nicholson-Bush - Employment Termination"
+CASE_000548,"Cummings, Johnson and Miller v. Gray-Douglas - Criminal Defense"
+CASE_000549,Robinson Inc v. Gonzalez PLC - Bankruptcy Proceedings
+CASE_000550,"Golden-Smith v. Perkins, Sexton and Neal - Land Ownership Dispute"
+CASE_000551,Lopez Inc v. Simpson and Sons - Tax Evasion
+CASE_000552,"Chan, Torres and Cook v. Taylor-Lynn - Tax Evasion"
+CASE_000553,Garcia-Lynch v. Rush Inc - Civil Rights Violation
+CASE_000554,"Wright-Roy v. Gray, King and Cervantes - Real Estate Transaction"
+CASE_000555,Phillips Group v. Ross-Walker - Family Law Dispute
+CASE_000556,"Gordon, Larson and Smith v. Wiggins, Powell and Hodge - Employment Termination"
+CASE_000557,Sullivan-Carpenter v. Rodriguez-Shaw - Medical Malpractice
+CASE_000558,"Lee, Garcia and Harris v. James-Thompson - Corporate Governance"
+CASE_000559,Bishop Ltd v. Wood and Sons - Family Law Dispute
+CASE_000560,Ross-Chandler v. Monroe Group - Insurance Claim Dispute
+CASE_000561,Smith PLC v. Hernandez LLC - Family Law Dispute
+CASE_000562,"Levine-Allen v. Jones, Cooper and Hawkins - Consumer Protection"
+CASE_000563,Dennis PLC v. Vance PLC - Criminal Defense
+CASE_000564,Pierce Inc v. Gilbert-Martinez - Tax Evasion
+CASE_000565,"Foster, Brown and Lopez v. Hamilton and Sons - Corporate Governance"
+CASE_000566,"Williams-Hickman v. Hunter, Kramer and Johnson - Bankruptcy Proceedings"
+CASE_000567,"Miller, Wilson and Chen v. Ochoa, Garcia and Reynolds - Consumer Protection"
+CASE_000568,"Perez, Horton and Anderson v. Payne, Walter and Grant - Corporate Governance"
+CASE_000569,"Howell, Garrett and Esparza v. Ibarra Ltd - Bankruptcy Proceedings"
+CASE_000570,Smith LLC v. Gilbert and Sons - Family Law Dispute
+CASE_000571,Wilson-Pope v. Foley-Harris - Real Estate Transaction
+CASE_000572,"Williams and Sons v. Patterson, Orozco and Ellis - Civil Rights Violation"
+CASE_000573,"Martinez, Wyatt and Copeland v. Mclaughlin Inc - Bankruptcy Proceedings"
+CASE_000574,Hodges-Romero v. Gibbs PLC - Medical Malpractice
+CASE_000575,Mckee and Sons v. Mcclain-Stuart - Corporate Governance
+CASE_000576,Lee-Thomas v. Smith LLC - Tax Evasion
+CASE_000577,"Strickland, Villegas and Davis v. Valentine LLC - Real Estate Transaction"
+CASE_000578,"Howard PLC v. Grant, Ritter and Payne - Criminal Defense"
+CASE_000579,"Thomas, Ramirez and Bennett v. Gilbert and Sons - Insurance Claim Dispute"
+CASE_000580,Herrera-Gray v. Wade-Ward - Employment Termination
+CASE_000581,Sanchez-Diaz v. Cruz-Poole - Criminal Defense
+CASE_000582,"Allen, Gonzalez and Reynolds v. Adkins, Edwards and Phillips - Civil Rights Violation"
+CASE_000583,Brown-Williams v. Rivera Group - Medical Malpractice
+CASE_000584,"Bernard Group v. Bryant, Gutierrez and Thompson - Environmental Regulation"
+CASE_000585,"Norman, Vaughn and Green v. Ramirez Inc - Bankruptcy Proceedings"
+CASE_000586,"Armstrong Group v. Stevens, Chung and Mitchell - Family Law Dispute"
+CASE_000587,Young Inc v. Rodriguez LLC - Criminal Defense
+CASE_000588,"Taylor, Clay and Gibson v. Nguyen LLC - Tax Evasion"
+CASE_000589,Ray-Barry v. Rivera-Patrick - Land Ownership Dispute
+CASE_000590,Navarro-Turner v. Shaw-Mccarthy - Medical Malpractice
+CASE_000591,Smith Group v. Patel PLC - Medical Malpractice
+CASE_000592,"Montgomery, Garcia and Noble v. Sullivan Group - Family Law Dispute"
+CASE_000593,Moss Group v. Jones Inc - Consumer Protection
+CASE_000594,"Morris, Brown and Garrett v. Thompson, Lee and Harvey - Environmental Regulation"
+CASE_000595,Mcintyre-Long v. Johnson-Humphrey - Family Law Dispute
+CASE_000596,"Berry-Kim v. White, Rodriguez and Rivera - Real Estate Transaction"
+CASE_000597,Harrell Group v. Williamson-Mitchell - Bankruptcy Proceedings
+CASE_000598,Norman and Sons v. Johnson-Paul - Bankruptcy Proceedings
+CASE_000599,"Johnson, Kim and Moss v. Smith-Kennedy - Civil Rights Violation"
+CASE_000600,Underwood LLC v. Barker-Huber - Environmental Regulation
+CASE_000601,Stewart PLC v. Conway PLC - Corporate Governance
+CASE_000602,"Barrett, Olson and Perez v. Garcia LLC - Intellectual Property Infringement"
+CASE_000603,Bender-Lamb v. Cox Group - Consumer Protection
+CASE_000604,"Johnson, Farrell and Gomez v. Thomas-May - Medical Malpractice"
+CASE_000605,"Mcgee, Caldwell and Hart v. Vasquez-Watkins - Employment Termination"
+CASE_000606,Gross-Gonzalez v. Nixon PLC - Environmental Regulation
+CASE_000607,"Chandler-Harmon v. Cameron, Kennedy and Taylor - Insurance Claim Dispute"
+CASE_000608,"Lopez Group v. Solis, Ortega and Dixon - Tax Evasion"
+CASE_000609,"Wong Ltd v. Fisher, Khan and Hernandez - Real Estate Transaction"
+CASE_000610,King Inc v. Walton PLC - Criminal Defense
+CASE_000611,"Oconnor, Oliver and Kim v. Perez Inc - Environmental Regulation"
+CASE_000612,"Mccoy, Lee and Mccarthy v. Riley-Brown - Consumer Protection"
+CASE_000613,Woods-Smith v. Maxwell PLC - Land Ownership Dispute
+CASE_000614,Valdez LLC v. Wolfe-Joseph - Employment Termination
+CASE_000615,Wright-Cook v. Roberson Ltd - Contract Breach
+CASE_000616,"Kane, Jackson and Anderson v. Duran-Maldonado - Civil Rights Violation"
+CASE_000617,Holland PLC v. Hall-Peterson - Real Estate Transaction
+CASE_000618,Adams-Garcia v. Hatfield LLC - Medical Malpractice
+CASE_000619,"Davidson, Herrera and Hogan v. Boone, Blair and Michael - Corporate Governance"
+CASE_000620,King-Harris v. Wade-Macdonald - Tax Evasion
+CASE_000621,"Hoffman, Saunders and Daniel v. Washington Ltd - Criminal Defense"
+CASE_000622,Wood PLC v. Rios PLC - Intellectual Property Infringement
+CASE_000623,"Obrien, Bradshaw and Contreras v. Conner-Mitchell - Real Estate Transaction"
+CASE_000624,"Reeves-Roy v. Finley, Meza and Soto - Medical Malpractice"
+CASE_000625,"Haas, Fernandez and Johnston v. Todd-Cervantes - Real Estate Transaction"
+CASE_000626,"Bishop, Cross and Miller v. Bradley Group - Medical Malpractice"
+CASE_000627,Young-Mcclure v. Wu-Suarez - Intellectual Property Infringement
+CASE_000628,"Smith Group v. Martinez, Costa and Brown - Insurance Claim Dispute"
+CASE_000629,"Hughes, Sheppard and Sanchez v. Taylor-Gray - Consumer Protection"
+CASE_000630,Olson Group v. Lang-Campbell - Family Law Dispute
+CASE_000631,Davenport Inc v. Holmes-Herrera - Environmental Regulation
+CASE_000632,Smith-Cannon v. Rodriguez Ltd - Tax Evasion
+CASE_000633,"Bernard, Johnson and Christensen v. Arnold and Sons - Family Law Dispute"
+CASE_000634,Ward-Burch v. Boyer LLC - Tax Evasion
+CASE_000635,"Paul, Washington and Newton v. Davis and Sons - Medical Malpractice"
+CASE_000636,"Dean, Morgan and Owens v. Rivera Ltd - Criminal Defense"
+CASE_000637,Gonzalez LLC v. Ferguson LLC - Intellectual Property Infringement
+CASE_000638,White-Atkins v. Russell and Sons - Land Ownership Dispute
+CASE_000639,Contreras-Christensen v. Johnston-Rivera - Consumer Protection
+CASE_000640,"Fowler, Brown and Lara v. Barber and Sons - Insurance Claim Dispute"
+CASE_000641,Webster-Rivera v. Robinson-Anthony - Criminal Defense
+CASE_000642,Wright-Griffin v. Anderson-Mack - Real Estate Transaction
+CASE_000643,Mullins LLC v. Calderon-Butler - Family Law Dispute
+CASE_000644,Brown-Wilson v. Thompson LLC - Land Ownership Dispute
+CASE_000645,"Price, Baker and Ponce v. Day PLC - Contract Breach"
+CASE_000646,"Smith, Hernandez and Flores v. Trujillo-Spencer - Consumer Protection"
+CASE_000647,Reynolds-Aguilar v. Nelson-Thompson - Tax Evasion
+CASE_000648,"Wise, Gould and Pearson v. Bray PLC - Land Ownership Dispute"
+CASE_000649,Reynolds-Sherman v. Torres-Johnson - Bankruptcy Proceedings
+CASE_000650,"Graves, Daniels and Williams v. Robertson-Powers - Land Ownership Dispute"
+CASE_000651,"Stephens, Dixon and Odom v. Johnson LLC - Environmental Regulation"
+CASE_000652,"Jones and Sons v. West, Flores and West - Real Estate Transaction"
+CASE_000653,"Morales, Adams and Pratt v. Weber LLC - Civil Rights Violation"
+CASE_000654,"Scott, Jenkins and Combs v. Howard-Molina - Intellectual Property Infringement"
+CASE_000655,"Young, Phillips and Rosario v. Molina Inc - Criminal Defense"
+CASE_000656,"Walsh, Delgado and Roberts v. Powers PLC - Environmental Regulation"
+CASE_000657,"Zamora, Snyder and Wilson v. Perez, Mendoza and King - Environmental Regulation"
+CASE_000658,"Wallace, Jackson and Jacobs v. Johnson Group - Employment Termination"
+CASE_000659,Miller Group v. Cochran Inc - Employment Termination
+CASE_000660,"Pittman, Snyder and Tucker v. Young-Rivera - Corporate Governance"
+CASE_000661,"Costa, Riley and Hendricks v. Myers Group - Land Ownership Dispute"
+CASE_000662,Sullivan-Lopez v. Ward Inc - Criminal Defense
+CASE_000663,"Harmon, Nguyen and Hernandez v. Ellison Inc - Family Law Dispute"
+CASE_000664,"Harris, Cooper and Harris v. Brady, Bell and George - Criminal Defense"
+CASE_000665,Hunter LLC v. Ford PLC - Civil Rights Violation
+CASE_000666,"Hart, Lee and Roberts v. Gamble-Kane - Tax Evasion"
+CASE_000667,"Foley, Brown and Taylor v. Pitts-Chavez - Civil Rights Violation"
+CASE_000668,"Brooks Ltd v. Roberts, Taylor and Wolf - Consumer Protection"
+CASE_000669,"Liu-Baker v. Braun, Owens and Marsh - Bankruptcy Proceedings"
+CASE_000670,Brown-Boyle v. Mann-Brown - Land Ownership Dispute
+CASE_000671,Green PLC v. Mccann and Sons - Land Ownership Dispute
+CASE_000672,George PLC v. Lewis-Sullivan - Medical Malpractice
+CASE_000673,"Wilson and Sons v. Taylor, Williams and Brown - Bankruptcy Proceedings"
+CASE_000674,"Reeves, Li and Swanson v. Garcia Inc - Corporate Governance"
+CASE_000675,Schmitt Ltd v. Brown-Watson - Family Law Dispute
+CASE_000676,Lindsey-Davidson v. Petty-Hardy - Real Estate Transaction
+CASE_000677,"Fields, Middleton and Mcgee v. Hughes-Gregory - Insurance Claim Dispute"
+CASE_000678,"Wiley-Robertson v. Ramirez, Liu and Lewis - Land Ownership Dispute"
+CASE_000679,Willis Group v. Butler-Vasquez - Bankruptcy Proceedings
+CASE_000680,"Fowler, Lopez and Marks v. Huber Inc - Medical Malpractice"
+CASE_000681,"Lee-Hughes v. Hernandez, Pearson and Green - Contract Breach"
+CASE_000682,Johnson and Sons v. Carroll-Farrell - Contract Breach
+CASE_000683,"Wiley, Fletcher and Morrison v. King-Kim - Real Estate Transaction"
+CASE_000684,"Wilson, Woods and Payne v. Johnson, Smith and Rivera - Medical Malpractice"
+CASE_000685,Smith Inc v. Barnes-Holloway - Employment Termination
+CASE_000686,"Carpenter, Tucker and Perkins v. Nunez, Bryant and Ruiz - Environmental Regulation"
+CASE_000687,"Scott, Mccoy and Hill v. Huber, Mercado and Wilson - Employment Termination"
+CASE_000688,"Harding, Wyatt and Davis v. Curry-Garcia - Contract Breach"
+CASE_000689,"Gallagher, Wilson and Richard v. Atkins-Davis - Intellectual Property Infringement"
+CASE_000690,Baker-Peterson v. Burns-Black - Bankruptcy Proceedings
+CASE_000691,Galvan Ltd v. Stewart-Wright - Contract Breach
+CASE_000692,Martinez-Gardner v. Greer-Cooley - Intellectual Property Infringement
+CASE_000693,Shaffer Inc v. Lewis and Sons - Medical Malpractice
+CASE_000694,"Oconnor, Clark and Ellis v. Johnson LLC - Employment Termination"
+CASE_000695,"Padilla, Armstrong and Walter v. Mccormick, Lewis and Suarez - Environmental Regulation"
+CASE_000696,"Fernandez LLC v. Valenzuela, Mora and Moses - Civil Rights Violation"
+CASE_000697,"Smith, Bean and Williams v. Mullins Group - Real Estate Transaction"
+CASE_000698,"Gaines-Taylor v. Rios, Bright and Hill - Bankruptcy Proceedings"
+CASE_000699,Smith-Ryan v. Porter LLC - Family Law Dispute
+CASE_000700,Wilson-Bishop v. Morris-Miller - Corporate Governance
+CASE_000701,"Wong, Harmon and Kim v. Li, Kelly and Williams - Corporate Governance"
+CASE_000702,"Williams, Hays and Mayo v. Stevens Ltd - Medical Malpractice"
+CASE_000703,Sanchez Group v. Cain LLC - Intellectual Property Infringement
+CASE_000704,"Case, Ellis and Weaver v. Moore and Sons - Insurance Claim Dispute"
+CASE_000705,Bowman-Moore v. Hill LLC - Consumer Protection
+CASE_000706,"Dennis, Thomas and Franklin v. Calderon LLC - Land Ownership Dispute"
+CASE_000707,Conway LLC v. Kim-Hill - Real Estate Transaction
+CASE_000708,Hunt-Harris v. Hampton LLC - Civil Rights Violation
+CASE_000709,"Allen, Downs and Smith v. Pratt, Martin and Wagner - Family Law Dispute"
+CASE_000710,"Pacheco Ltd v. Cook, Wright and Gordon - Family Law Dispute"
+CASE_000711,"Vazquez, Bright and Simmons v. Lee-Rogers - Land Ownership Dispute"
+CASE_000712,Bush and Sons v. Church Inc - Consumer Protection
+CASE_000713,"Thompson, Church and Deleon v. Hayes-Hogan - Corporate Governance"
+CASE_000714,Patrick-Lee v. Bernard-Boyd - Contract Breach
+CASE_000715,"Kelley, Hernandez and Joseph v. Parrish Ltd - Insurance Claim Dispute"
+CASE_000716,"Reynolds-Ramsey v. Bennett, Davis and Hernandez - Employment Termination"
+CASE_000717,"Watkins-Hayden v. Zavala, Combs and Solomon - Land Ownership Dispute"
+CASE_000718,"Johnson Ltd v. Bishop, Baker and Smith - Consumer Protection"
+CASE_000719,Fitzpatrick Ltd v. Holland-Tucker - Tax Evasion
+CASE_000720,"Lawson, Shepherd and Hamilton v. Fischer Ltd - Real Estate Transaction"
+CASE_000721,Brown Group v. Jones Group - Employment Termination
+CASE_000722,"Thompson, Keller and Sosa v. Garcia Ltd - Intellectual Property Infringement"
+CASE_000723,Carter Inc v. Klein Ltd - Land Ownership Dispute
+CASE_000724,"Hernandez-Larson v. Woods, Brown and Moore - Consumer Protection"
+CASE_000725,Solis-Nguyen v. Rosario-Diaz - Criminal Defense
+CASE_000726,"Collins, Bell and Lopez v. Dudley Inc - Intellectual Property Infringement"
+CASE_000727,"Skinner-Flynn v. Richardson, Jackson and Clark - Insurance Claim Dispute"
+CASE_000728,Lindsey-Olson v. Torres PLC - Contract Breach
+CASE_000729,Castro-Taylor v. Glenn-Johnson - Family Law Dispute
+CASE_000730,Cruz Ltd v. Nichols Inc - Land Ownership Dispute
+CASE_000731,"Vaughan, Chen and Cruz v. English, Webb and Case - Family Law Dispute"
+CASE_000732,"Lawson, Thompson and Weaver v. Hall, Rodriguez and Stevenson - Corporate Governance"
+CASE_000733,"Benitez, Tapia and Johnson v. Charles, Rodriguez and Rodgers - Consumer Protection"
+CASE_000734,"Morgan, Adams and Kane v. Smith, Williams and Hodge - Contract Breach"
+CASE_000735,"Klein Group v. Orozco, Smith and Brooks - Insurance Claim Dispute"
+CASE_000736,"Bridges, Moreno and Peterson v. Phillips, Snyder and Hale - Land Ownership Dispute"
+CASE_000737,"Ferguson, Baker and Armstrong v. Henderson Inc - Civil Rights Violation"
+CASE_000738,"Abbott, Mcclain and Acosta v. Bullock-Turner - Contract Breach"
+CASE_000739,"Armstrong-Aguirre v. Rivera, Jones and Porter - Corporate Governance"
+CASE_000740,Benson Inc v. Conley-Forbes - Family Law Dispute
+CASE_000741,"Harris-Lewis v. Mcguire, Yates and Harris - Land Ownership Dispute"
+CASE_000742,Mccormick-Zhang v. Sanchez-Rodriguez - Contract Breach
+CASE_000743,"Hall, Turner and Baker v. Bennett Ltd - Insurance Claim Dispute"
+CASE_000744,"Smith-Dean v. Mason, Whitehead and Chung - Contract Breach"
+CASE_000745,"Cook-Benitez v. Garcia, Anderson and Snyder - Contract Breach"
+CASE_000746,"Jackson Inc v. Gonzalez, Horne and Dorsey - Insurance Claim Dispute"
+CASE_000747,Irwin Inc v. Page Group - Land Ownership Dispute
+CASE_000748,"Glover, Nelson and Richards v. Moore LLC - Environmental Regulation"
+CASE_000749,"Brown, Lyons and Klein v. Flores-Allen - Contract Breach"
+CASE_000750,Brown-Higgins v. Murphy Inc - Environmental Regulation
+CASE_000751,"Wheeler, Mccarty and Lee v. Chambers-Alvarado - Bankruptcy Proceedings"
+CASE_000752,Rivera-Lawrence v. Hodge-Morgan - Criminal Defense
+CASE_000753,"Hernandez, Tran and Manning v. Newton PLC - Medical Malpractice"
+CASE_000754,Perez-Johnson v. Rogers-Mercado - Civil Rights Violation
+CASE_000755,"Anderson, Price and Henderson v. Flores-Wells - Employment Termination"
+CASE_000756,"Martinez, Franco and Willis v. Barr, Marks and Hayes - Environmental Regulation"
+CASE_000757,"Stewart PLC v. Ferguson, Miller and Flores - Tax Evasion"
+CASE_000758,Miller-Garza v. Smith Group - Criminal Defense
+CASE_000759,"Smith, Wade and Marquez v. Carlson, Mcdaniel and Garcia - Employment Termination"
+CASE_000760,"Williams-Butler v. Hunter, Jimenez and Little - Criminal Defense"
+CASE_000761,"Edwards, Young and Rose v. Phillips, Guerrero and Reed - Real Estate Transaction"
+CASE_000762,"Cuevas, Morrison and Johnson v. Ramos PLC - Real Estate Transaction"
+CASE_000763,Smith-Crawford v. Stewart-Webb - Corporate Governance
+CASE_000764,"Morgan, Parks and Harris v. Nash, Payne and Merritt - Real Estate Transaction"
+CASE_000765,"Bell, Williamson and Orr v. Reeves-Logan - Medical Malpractice"
+CASE_000766,"Bennett, Nguyen and Watts v. Smith, Johnston and Wong - Intellectual Property Infringement"
+CASE_000767,Simmons-Medina v. Elliott-Buchanan - Bankruptcy Proceedings
+CASE_000768,"Andrews, Trevino and Spears v. Sutton, Palmer and Webb - Land Ownership Dispute"
+CASE_000769,"Cervantes PLC v. Long, Whitaker and Wright - Corporate Governance"
+CASE_000770,"Willis, Brooks and Gonzalez v. Harris PLC - Insurance Claim Dispute"
+CASE_000771,Mills and Sons v. Lawson Group - Environmental Regulation
+CASE_000772,Brown and Sons v. Carter Ltd - Intellectual Property Infringement
+CASE_000773,Gamble LLC v. Montes and Sons - Real Estate Transaction
+CASE_000774,Vang Inc v. Donaldson PLC - Real Estate Transaction
+CASE_000775,Lynn-Walters v. Erickson-Greene - Corporate Governance
+CASE_000776,"Robbins-Taylor v. Benton, Sims and Carter - Intellectual Property Infringement"
+CASE_000777,"Kim, Jackson and Washington v. Lowe, Lane and Tucker - Real Estate Transaction"
+CASE_000778,Greer-Schaefer v. Ryan-Lopez - Tax Evasion
+CASE_000779,"Bruce LLC v. Bass, Kim and Ross - Land Ownership Dispute"
+CASE_000780,"Crawford, Benson and Mitchell v. Stewart Ltd - Criminal Defense"
+CASE_000781,"Davis-Gonzalez v. Davis, Cardenas and Bryan - Consumer Protection"
+CASE_000782,"Golden, Long and Brooks v. Cooke, Richardson and Williams - Bankruptcy Proceedings"
+CASE_000783,Pena-Brennan v. Johnson-Martinez - Criminal Defense
+CASE_000784,Lawrence and Sons v. Gonzalez-Whitehead - Bankruptcy Proceedings
+CASE_000785,Bishop-Buchanan v. Christensen-Ramirez - Real Estate Transaction
+CASE_000786,Adkins and Sons v. Martin-Peterson - Contract Breach
+CASE_000787,"Smith Ltd v. Baldwin, Green and Evans - Insurance Claim Dispute"
+CASE_000788,"Montgomery Group v. Williams, Berger and Simmons - Family Law Dispute"
+CASE_000789,"Martinez, Andrews and Phillips v. Clark, Hogan and Montoya - Employment Termination"
+CASE_000790,"Estrada, Mills and Johnson v. Hayden, Knight and Johnson - Civil Rights Violation"
+CASE_000791,"Reyes, Mooney and Davis v. Perez, Anderson and Savage - Environmental Regulation"
+CASE_000792,Davidson-Faulkner v. Moses-Beasley - Medical Malpractice
+CASE_000793,"Kramer, Salinas and Martin v. Knapp, Harris and Garcia - Medical Malpractice"
+CASE_000794,"Gonzalez, Reese and Hunter v. Hall-Fisher - Land Ownership Dispute"
+CASE_000795,"Hall-Jackson v. Todd, Morgan and Rojas - Environmental Regulation"
+CASE_000796,Travis LLC v. Golden Inc - Medical Malpractice
+CASE_000797,"Brown, Gardner and Frey v. Tucker, Fields and Hart - Medical Malpractice"
+CASE_000798,Espinoza Group v. Watson-Frye - Criminal Defense
+CASE_000799,"Kennedy-Brown v. Perez, Moreno and Fry - Family Law Dispute"
+CASE_000800,"Hunt and Sons v. Stanley, Martinez and Hughes - Insurance Claim Dispute"
+CASE_000801,Carson LLC v. Cox Group - Tax Evasion
+CASE_000802,"Smith Inc v. Carter, Williams and Hansen - Employment Termination"
+CASE_000803,"Salazar, Gonzales and Carr v. Coleman-Higgins - Family Law Dispute"
+CASE_000804,Martin-Rodriguez v. Moody-Gonzalez - Civil Rights Violation
+CASE_000805,"Murphy, Long and Zimmerman v. Lynch and Sons - Intellectual Property Infringement"
+CASE_000806,Campbell-Moore v. Hanson Group - Intellectual Property Infringement
+CASE_000807,Moss-Patterson v. Hodges PLC - Insurance Claim Dispute
+CASE_000808,"Simmons Ltd v. Dudley, Farmer and Browning - Intellectual Property Infringement"
+CASE_000809,"Martin, Christensen and Grant v. Morrison, Marsh and Chavez - Consumer Protection"
+CASE_000810,Byrd-Bauer v. Knapp-Thompson - Corporate Governance
+CASE_000811,"Green, Grant and Grimes v. Young Group - Environmental Regulation"
+CASE_000812,Smith LLC v. Simpson-Powell - Tax Evasion
+CASE_000813,"Shah PLC v. Parrish, Simpson and Baker - Contract Breach"
+CASE_000814,"Wang Ltd v. Munoz, Park and Gordon - Family Law Dispute"
+CASE_000815,Thompson-Harrison v. Williams-Adkins - Land Ownership Dispute
+CASE_000816,Hartman-Smith v. Peterson and Sons - Environmental Regulation
+CASE_000817,Barnett and Sons v. Payne LLC - Consumer Protection
+CASE_000818,Hunt-Ray v. Jones-Padilla - Corporate Governance
+CASE_000819,Hayes Group v. Miles-Davis - Environmental Regulation
+CASE_000820,"Nunez, Edwards and Oliver v. Smith, Porter and Hopkins - Environmental Regulation"
+CASE_000821,"Perry, Fisher and Silva v. Norris, Ward and Richards - Environmental Regulation"
+CASE_000822,"Wolfe, Mcfarland and Moon v. Ramirez Ltd - Medical Malpractice"
+CASE_000823,"Foster-Sullivan v. Herrera, Nguyen and Gentry - Environmental Regulation"
+CASE_000824,"Robbins and Sons v. Kelley, Bryant and Martinez - Real Estate Transaction"
+CASE_000825,Smith Group v. Quinn-Carey - Employment Termination
+CASE_000826,"Webb, Wagner and Stone v. Paul Group - Medical Malpractice"
+CASE_000827,Rodriguez PLC v. Robinson-Wilson - Medical Malpractice
+CASE_000828,"Everett-Grimes v. Hale, Davila and Perez - Family Law Dispute"
+CASE_000829,Jordan-Thompson v. Hooper-Rivas - Family Law Dispute
+CASE_000830,Taylor Group v. Young-Gomez - Intellectual Property Infringement
+CASE_000831,"Horton, Williams and Schaefer v. Fowler, Bauer and Norton - Insurance Claim Dispute"
+CASE_000832,"Adams, Davis and Wright v. Molina, Perkins and Golden - Consumer Protection"
+CASE_000833,"Avila, Peterson and Thornton v. Taylor PLC - Consumer Protection"
+CASE_000834,"Willis Ltd v. Johnston, Guerrero and Parker - Consumer Protection"
+CASE_000835,"Acevedo, Medina and Trevino v. Bell, Fox and Martinez - Medical Malpractice"
+CASE_000836,"Garcia, Ibarra and Reed v. King-Thompson - Corporate Governance"
+CASE_000837,"Kent, Williams and Roberson v. Huynh-Hernandez - Consumer Protection"
+CASE_000838,"Mitchell, Anderson and Watts v. Sanchez-Robertson - Employment Termination"
+CASE_000839,Hunter Ltd v. Garcia PLC - Consumer Protection
+CASE_000840,"Osborne, Williams and Phillips v. Weber Inc - Environmental Regulation"
+CASE_000841,"Larson, Williams and West v. Stevenson-Torres - Civil Rights Violation"
+CASE_000842,Summers-Evans v. Estrada Group - Intellectual Property Infringement
+CASE_000843,Mccann-Figueroa v. Elliott PLC - Contract Breach
+CASE_000844,Wolf and Sons v. Castro-Riddle - Environmental Regulation
+CASE_000845,"Dean-Mcdowell v. Jones, Anderson and Harrison - Civil Rights Violation"
+CASE_000846,Wilson-Figueroa v. Rodriguez-Gonzalez - Family Law Dispute
+CASE_000847,"Brown, Mercado and Norris v. Kaufman, Curry and Reyes - Employment Termination"
+CASE_000848,Hamilton and Sons v. Bell-Washington - Employment Termination
+CASE_000849,Vargas-Hamilton v. Rodriguez-Sparks - Land Ownership Dispute
+CASE_000850,"Schmidt-Evans v. Williams, Bryan and Moreno - Bankruptcy Proceedings"
+CASE_000851,"Rogers, Rodriguez and Ferguson v. Stevenson-Patterson - Land Ownership Dispute"
+CASE_000852,"Foster, Rodriguez and Ellis v. Hardy PLC - Medical Malpractice"
+CASE_000853,"Miller, Garner and Tucker v. Lewis PLC - Contract Breach"
+CASE_000854,"Pierce-Baker v. Simmons, May and Trujillo - Bankruptcy Proceedings"
+CASE_000855,"Rodriguez, Bray and Hill v. Warren-Wilson - Real Estate Transaction"
+CASE_000856,"Adams, Brown and Morris v. Dixon-Kramer - Land Ownership Dispute"
+CASE_000857,"Herring and Sons v. Stewart, Taylor and Washington - Employment Termination"
+CASE_000858,"Roberts, Molina and Ward v. Woodward-Perkins - Real Estate Transaction"
+CASE_000859,Scott-Hill v. Tucker-Juarez - Land Ownership Dispute
+CASE_000860,"Nguyen, Shelton and Gross v. Sanders-Castro - Family Law Dispute"
+CASE_000861,"Carter, Maynard and Cooper v. Barron-Carter - Employment Termination"
+CASE_000862,"Koch, Carpenter and Ford v. Jones, Curry and Brennan - Criminal Defense"
+CASE_000863,"Barnes-Huber v. Merritt, Simmons and Peterson - Employment Termination"
+CASE_000864,Johnson PLC v. Cruz-Cook - Intellectual Property Infringement
+CASE_000865,"Lewis, Wilson and Johnson v. Stephens LLC - Insurance Claim Dispute"
+CASE_000866,"Pearson-Mora v. Brown, Hall and Smith - Intellectual Property Infringement"
+CASE_000867,"Higgins, Chandler and Gallagher v. Duarte, Silva and Boyd - Intellectual Property Infringement"
+CASE_000868,"Hunt Inc v. Thompson, Pena and Doyle - Real Estate Transaction"
+CASE_000869,Garcia and Sons v. Hunt PLC - Criminal Defense
+CASE_000870,Hall-Murphy v. Robinson Group - Tax Evasion
+CASE_000871,"Hayes LLC v. Bryant, Martin and Simpson - Tax Evasion"
+CASE_000872,Harris-Harris v. Downs-Johnson - Consumer Protection
+CASE_000873,"Wallace, Wells and Buchanan v. Park, Martinez and Wright - Civil Rights Violation"
+CASE_000874,Perkins Inc v. Shaw PLC - Family Law Dispute
+CASE_000875,"Cummings, Scott and Franco v. Wright, Scott and Conway - Intellectual Property Infringement"
+CASE_000876,Moore and Sons v. Moore-Lynch - Family Law Dispute
+CASE_000877,"Owens, Wood and Reed v. Ortega, Foster and Cisneros - Employment Termination"
+CASE_000878,"Lozano, Jones and Rodriguez v. Valenzuela, Harrell and Williams - Consumer Protection"
+CASE_000879,"Ramsey, Sawyer and Esparza v. Bush LLC - Family Law Dispute"
+CASE_000880,Clements-Mitchell v. Mccullough and Sons - Insurance Claim Dispute
+CASE_000881,"Martinez, Ballard and Austin v. Stevens and Sons - Corporate Governance"
+CASE_000882,"Tapia, Smith and Mckee v. Stevens, Cook and Ritter - Consumer Protection"
+CASE_000883,Castillo and Sons v. Dawson-Miller - Real Estate Transaction
+CASE_000884,Benjamin Ltd v. Chan PLC - Bankruptcy Proceedings
+CASE_000885,Hansen-Lopez v. Trevino-Perry - Employment Termination
+CASE_000886,Stanley-Humphrey v. Dudley Ltd - Tax Evasion
+CASE_000887,"Adams, Lambert and Martinez v. Wood-Crosby - Consumer Protection"
+CASE_000888,Jackson LLC v. Peck-Larson - Insurance Claim Dispute
+CASE_000889,Mcknight-Foster v. Jones-Wallace - Contract Breach
+CASE_000890,Lewis LLC v. Sandoval PLC - Tax Evasion
+CASE_000891,"Lopez, Patel and Hutchinson v. Lambert-Marsh - Real Estate Transaction"
+CASE_000892,"Wang Group v. Ramos, Price and Burns - Consumer Protection"
+CASE_000893,Armstrong Ltd v. Wang-Morris - Employment Termination
+CASE_000894,Velazquez-Davis v. Nguyen-Valenzuela - Employment Termination
+CASE_000895,Tyler-Patterson v. Jenkins-Allen - Criminal Defense
+CASE_000896,Fields-Ross v. Turner LLC - Criminal Defense
+CASE_000897,"Garcia, Barnes and Campbell v. Harris Inc - Consumer Protection"
+CASE_000898,Davis-Bryant v. Haney-Wilson - Environmental Regulation
+CASE_000899,"Young-Henderson v. Smith, Brooks and Arellano - Tax Evasion"
+CASE_000900,"Henderson, Spencer and Berger v. Ellis-Salazar - Consumer Protection"
+CASE_000901,"Brown Inc v. Escobar, Sanders and Carrillo - Tax Evasion"
+CASE_000902,Alexander LLC v. Gonzalez PLC - Criminal Defense
+CASE_000903,"Wilson LLC v. Carson, Smith and Johnson - Civil Rights Violation"
+CASE_000904,Padilla and Sons v. Morris LLC - Environmental Regulation
+CASE_000905,Huffman-Barron v. Nelson Group - Consumer Protection
+CASE_000906,Johnson Group v. Brown-Reese - Insurance Claim Dispute
+CASE_000907,"Thompson, Hanson and Yoder v. Woods Group - Tax Evasion"
+CASE_000908,Leblanc-Singh v. Byrd and Sons - Tax Evasion
+CASE_000909,Thomas-Ortega v. Bowen-Johnson - Contract Breach
+CASE_000910,"Peters, Robinson and Alvarez v. Graham Inc - Civil Rights Violation"
+CASE_000911,"Grant, Harris and King v. Lee-Thomas - Consumer Protection"
+CASE_000912,Sanchez-Abbott v. King-Morrow - Insurance Claim Dispute
+CASE_000913,Martinez-Sanders v. Parker Ltd - Corporate Governance
+CASE_000914,"Larson, Garcia and Rodriguez v. Bradshaw, Nelson and Hart - Environmental Regulation"
+CASE_000915,"Choi Inc v. Smith, Brown and Ford - Insurance Claim Dispute"
+CASE_000916,"Farrell, Coleman and Reyes v. Evans Ltd - Employment Termination"
+CASE_000917,"Mercado, Fuentes and Campbell v. Smith, Adams and Marsh - Consumer Protection"
+CASE_000918,Cook-Brown v. Ramos-Dominguez - Tax Evasion
+CASE_000919,"Smith-Henderson v. Brooks, Ramsey and Alvarez - Criminal Defense"
+CASE_000920,"Zimmerman, Perry and Garcia v. Clark PLC - Corporate Governance"
+CASE_000921,Bennett-Cortez v. Phillips PLC - Family Law Dispute
+CASE_000922,Morales-Mack v. Wang-Larsen - Intellectual Property Infringement
+CASE_000923,"Zimmerman PLC v. Perkins, Johnson and Davis - Contract Breach"
+CASE_000924,"Jensen-Anderson v. Reese, Johnson and Brown - Medical Malpractice"
+CASE_000925,"Bartlett, Giles and Lawson v. Camacho-Jackson - Criminal Defense"
+CASE_000926,Graves-Wilson v. Kirby-Trevino - Tax Evasion
+CASE_000927,Baker PLC v. King-Hall - Real Estate Transaction
+CASE_000928,"Brown, Vazquez and Clark v. Kennedy-Flores - Bankruptcy Proceedings"
+CASE_000929,Alvarado LLC v. Logan Group - Real Estate Transaction
+CASE_000930,Lloyd-Johnson v. Glenn PLC - Land Ownership Dispute
+CASE_000931,Hawkins-Richardson v. Chen PLC - Contract Breach
+CASE_000932,Travis-Moore v. Wolfe LLC - Medical Malpractice
+CASE_000933,"Carter, Taylor and Lawrence v. Jones, Williams and Stark - Environmental Regulation"
+CASE_000934,"Vega, Rocha and Morrison v. White-Miller - Environmental Regulation"
+CASE_000935,"Marshall, Johnson and Gutierrez v. Smith LLC - Land Ownership Dispute"
+CASE_000936,Horne-Adams v. Mills-Baldwin - Employment Termination
+CASE_000937,"Galloway-Taylor v. Mccullough, Herrera and Crane - Environmental Regulation"
+CASE_000938,"Rojas Inc v. Gibson, Alexander and Goodman - Tax Evasion"
+CASE_000939,Koch LLC v. Malone-Flores - Corporate Governance
+CASE_000940,Wilson Ltd v. Nixon and Sons - Insurance Claim Dispute
+CASE_000941,"Simmons, Patel and Obrien v. Hunt Group - Tax Evasion"
+CASE_000942,"Conner Group v. Dorsey, Lynch and Vincent - Criminal Defense"
+CASE_000943,"Cruz LLC v. Chavez, Patel and Holmes - Family Law Dispute"
+CASE_000944,"Grant-Gray v. Wise, Smith and Rodriguez - Land Ownership Dispute"
+CASE_000945,"Clark, Morrison and Gamble v. Martin-Martin - Corporate Governance"
+CASE_000946,Sandoval Ltd v. Brooks-Phillips - Criminal Defense
+CASE_000947,"Baker, Griffith and Stewart v. Rogers-Bryant - Insurance Claim Dispute"
+CASE_000948,"Johnson, Cruz and Herrera v. Mata-Murphy - Civil Rights Violation"
+CASE_000949,"Peters, Moore and Hughes v. Carey PLC - Land Ownership Dispute"
+CASE_000950,Mcmillan-King v. Potts-Higgins - Insurance Claim Dispute
+CASE_000951,"Kim, Hammond and Hoffman v. Murray-Stevens - Insurance Claim Dispute"
+CASE_000952,"Beck Ltd v. Freeman, Perez and Williams - Environmental Regulation"
+CASE_000953,Martinez PLC v. Alexander-Williams - Environmental Regulation
+CASE_000954,"Jones, Walls and Molina v. Anderson Group - Civil Rights Violation"
+CASE_000955,Kennedy-Ramsey v. Valentine Ltd - Bankruptcy Proceedings
+CASE_000956,Baker-Morris v. Lewis Group - Family Law Dispute
+CASE_000957,Ray-White v. West LLC - Insurance Claim Dispute
+CASE_000958,"Valdez, Bennett and Bryant v. Edwards Inc - Medical Malpractice"
+CASE_000959,"Pacheco-Cruz v. Moreno, Wise and Stone - Real Estate Transaction"
+CASE_000960,Mullen and Sons v. Hill PLC - Medical Malpractice
+CASE_000961,"Frank LLC v. Roberts, Gonzalez and Hart - Corporate Governance"
+CASE_000962,"Joseph, Montgomery and Miller v. Alexander LLC - Corporate Governance"
+CASE_000963,"Brandt, Morgan and Castillo v. Wright, Thomas and Dean - Real Estate Transaction"
+CASE_000964,"Miller, Davis and Zhang v. Davis-Moss - Land Ownership Dispute"
+CASE_000965,Hopkins Group v. Mccarthy-Rojas - Civil Rights Violation
+CASE_000966,Bryant-Small v. Stewart Inc - Civil Rights Violation
+CASE_000967,May-Raymond v. Jackson-Schultz - Environmental Regulation
+CASE_000968,Bauer-Gonzalez v. Anderson and Sons - Land Ownership Dispute
+CASE_000969,Wilson Inc v. Jensen LLC - Bankruptcy Proceedings
+CASE_000970,"Prince-Barber v. Mills, Schneider and Burke - Tax Evasion"
+CASE_000971,Morgan PLC v. Caldwell PLC - Consumer Protection
+CASE_000972,Kennedy PLC v. Smith-Duffy - Civil Rights Violation
+CASE_000973,Bennett-Petty v. Martin PLC - Criminal Defense
+CASE_000974,Johnston Inc v. Elliott-Smith - Contract Breach
+CASE_000975,"Roberts, Hunt and Murphy v. Pena LLC - Real Estate Transaction"
+CASE_000976,"Henry, Palmer and Cooke v. Gibson LLC - Intellectual Property Infringement"
+CASE_000977,Wallace-Carr v. Lee Group - Medical Malpractice
+CASE_000978,Long-Taylor v. White-Ward - Environmental Regulation
+CASE_000979,"Wilson, Daniels and Griffith v. Jackson PLC - Real Estate Transaction"
+CASE_000980,"Gaines and Sons v. Vega, Mccall and Perez - Criminal Defense"
+CASE_000981,Chavez-Charles v. Mccarthy Ltd - Family Law Dispute
+CASE_000982,Wright Group v. Phillips-Richardson - Environmental Regulation
+CASE_000983,"Williams, Kelley and Perez v. Harding and Sons - Environmental Regulation"
+CASE_000984,Perez-Johnson v. Thompson-Scott - Medical Malpractice
+CASE_000985,Cummings Ltd v. Kirby LLC - Insurance Claim Dispute
+CASE_000986,Todd Ltd v. Green LLC - Contract Breach
+CASE_000987,"Davis, Alvarez and Morales v. Wyatt Inc - Medical Malpractice"
+CASE_000988,Jordan-Kerr v. Hatfield PLC - Environmental Regulation
+CASE_000989,"Gilbert, Gray and Nichols v. Sparks-Rodriguez - Civil Rights Violation"
+CASE_000990,Lewis-Rosales v. English LLC - Criminal Defense
+CASE_000991,Alexander-Vega v. Waller-Salas - Family Law Dispute
+CASE_000992,Preston Inc v. Murray Group - Tax Evasion
+CASE_000993,"Hickman, Ortiz and Walker v. Miller, Sanders and Webb - Employment Termination"
+CASE_000994,"Marshall, Christensen and Robinson v. Davis and Sons - Intellectual Property Infringement"
+CASE_000995,"Martin, Schmidt and Clark v. Dunn, Alexander and Ortega - Real Estate Transaction"
+CASE_000996,Morgan PLC v. Whitaker Inc - Contract Breach
+CASE_000997,Smith LLC v. Martin PLC - Medical Malpractice
+CASE_000998,Hernandez Ltd v. Bass-Ramirez - Family Law Dispute
+CASE_000999,"Horn Inc v. Bennett, Gilbert and Martin - Land Ownership Dispute"
