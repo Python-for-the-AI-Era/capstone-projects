@@ -1,0 +1,15 @@
+# Large files
+*.backup
+*.large
+large_files_backup/
+legal_precedents.index.backup
+legal_precedents_compact.index
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model cache
+.cache/
+models/
