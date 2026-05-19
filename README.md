@@ -5,7 +5,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Infrastructure](https://img.shields.io/badge/Infrastructure-Docker%20|%20Redis%20|%20PostgreSQL-red?style=for-the-badge&logo=docker)](https://www.docker.com/)
 
-This repository is a curated collection of **50 mission-critical engineering projects**. It tracks my journey from systems internals and bytecode inspection to building distributed, real-time collaborative engines and AI-driven safety platforms.
+This repository is a curated collection of **50 mission-critical engineering projects**. It tracks the journey from systems internals and bytecode inspection to building distributed, real-time collaborative engines and AI-driven safety platforms.
 
 ---
 
