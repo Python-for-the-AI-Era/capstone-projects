@@ -1,5 +1,5 @@
 # The Staff Engineer’s Playbook: 50 High-Stakes Projects
-**Architected by Praise** | *Founder of Vaultryn & Software Architect*
+**Architected by Praise** | *[Founder of Vaultryn](https://vaultryn.com/) & [TechInnovom](https://techinnovom.com.ng/)*
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
